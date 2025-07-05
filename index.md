@@ -5,9 +5,10 @@
 ### Data Analysis
 
 [Customer Churn Analysis During Black Friday](/sample_page)
-[Tools: Power BI, SQL
+Tools: Power BI, SQL
 Summary: Built a dashboard to track churn behavior when customers canceled existing licenses to use Black Friday discounts. Tracked KPIs like impressions, views, and regions to inform management.
-Assets to Add: Screenshot of dashboard, PDF export from Power BI]
+Assets to Add: Screenshot of dashboard, PDF export from Power BI
+
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
