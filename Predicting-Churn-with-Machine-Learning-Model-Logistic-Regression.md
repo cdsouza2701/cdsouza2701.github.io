@@ -1,8 +1,12 @@
 ## Predicting Churn with Machine Learning Model: Logistic Regression
 
-🧩 Project Overview: A predictive analytics project designed to identify customers likely to churn from a telecom service provider using a logistic regression model. The model helps reduce customer attrition and improve retention strategy.
+###🧩 Project Overview: 
 
-💡 Problem Statement: Customer churn directly impacts recurring revenue. The challenge is to detect customers at risk of leaving, using historical usage and contract data.
+A predictive analytics project designed to identify customers likely to churn from a telecom service provider using a logistic regression model. The model helps reduce customer attrition and improve retention strategy.
+
+###💡 Problem Statement: 
+
+Customer churn directly impacts recurring revenue. The challenge is to detect customers at risk of leaving, using historical usage and contract data.
 
 🔍 Approach: 
 Data Understanding & Cleaning: Inspected missing values, removed identifiers, and handled categorical data.
