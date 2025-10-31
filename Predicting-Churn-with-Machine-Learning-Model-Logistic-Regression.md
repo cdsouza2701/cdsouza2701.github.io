@@ -33,10 +33,6 @@ Python, pandas, scikit-learn, matplotlib, Logistic Regression, OneHotEncoder, St
 Delivered a reproducible machine learning pipeline and visual churn analysis notebook, providing an actionable baseline for future retention analytics.
 
 
-
-
-**Project description:** Built an end-to-end machine learning pipeline to predict telecom customer churn. Applied data preprocessing (feature encoding, scaling), logistic regression modeling, and performance evaluation using accuracy, recall, F1-score, and ROC-AUC. The project demonstrates a reproducible, interpretable approach to churn prediction using Python, pandas, scikit-learn, and matplotlib.
-
 ### 1. Suggest hypotheses about the causes of observed phenomena
 
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
