@@ -1,7 +1,7 @@
 ## Predicting Churn with Machine Learning Model: Logistic Regression
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cdsouza2701/YOUR_REPO/blob/main/YOUR_NOTEBOOK.ipynb)
-
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1yZAnYGdJ4U6TAk9G8-oah76BchdXpnRr?usp=sharing
+)
 
 ### 🧩 Project Overview: 
 A predictive analytics project designed to identify customers likely to churn from a telecom service provider using a logistic regression model. The model helps reduce customer attrition and improve retention strategy.
