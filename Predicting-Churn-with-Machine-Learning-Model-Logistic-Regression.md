@@ -14,6 +14,8 @@ Customer churn directly impacts recurring revenue. The challenge is to detect cu
 
 ### 📊 Key Insights:
 
+<div align="center" style="width: 60%; margin: auto;">
+  
 | Metric | Score |
 |:--------:|:------:|
 | Accuracy | **0.81** |
@@ -21,6 +23,8 @@ Customer churn directly impacts recurring revenue. The challenge is to detect cu
 | Recall | **0.74** |
 | F1-score | **0.75** |
 | ROC-AUC | **0.84** |
+
+</div>
 
 Customers with shorter tenure and higher monthly charges were most likely to churn.
 AutoPay and long-term contracts significantly reduced churn risk.
