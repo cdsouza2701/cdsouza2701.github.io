@@ -15,7 +15,7 @@ Customer churn directly impacts recurring revenue. The challenge is to detect cu
 ### 📊 Key Insights:
 
 | Metric | Score |
-|--------|:------:|
+|:--------:|:------:|
 | Accuracy | **0.81** |
 | Precision | **0.77** |
 | Recall | **0.74** |
