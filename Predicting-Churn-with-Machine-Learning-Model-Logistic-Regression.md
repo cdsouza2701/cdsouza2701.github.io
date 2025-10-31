@@ -35,6 +35,33 @@ Customer churn directly impacts recurring revenue. The challenge is to detect cu
   <tr><td>ROC-AUC</td><td>0.84</td></tr>
 </table>
 
+<table style="width:55%; text-align:left; border-collapse:collapse;">
+  <tr>
+    <th style="border-bottom:1px solid #ccc; padding:6px 8px;">Metric</th>
+    <th style="border-bottom:1px solid #ccc; padding:6px 8px;">Score</th>
+  </tr>
+  <tr>
+    <td style="border-bottom:1px solid #eee; padding:6px 8px;">Accuracy</td>
+    <td style="border-bottom:1px solid #eee; padding:6px 8px; font-weight:bold;">0.81</td>
+  </tr>
+  <tr>
+    <td style="border-bottom:1px solid #eee; padding:6px 8px;">Precision</td>
+    <td style="border-bottom:1px solid #eee; padding:6px 8px; font-weight:bold;">0.77</td>
+  </tr>
+  <tr>
+    <td style="border-bottom:1px solid #eee; padding:6px 8px;">Recall</td>
+    <td style="border-bottom:1px solid #eee; padding:6px 8px; font-weight:bold;">0.74</td>
+  </tr>
+  <tr>
+    <td style="border-bottom:1px solid #eee; padding:6px 8px;">F1-score</td>
+    <td style="border-bottom:1px solid #eee; padding:6px 8px; font-weight:bold;">0.75</td>
+  </tr>
+  <tr>
+    <td style="padding:6px 8px;">ROC-AUC</td>
+    <td style="padding:6px 8px; font-weight:bold;">0.84</td>
+  </tr>
+</table>
+
 Customers with shorter tenure and higher monthly charges were most likely to churn.
 AutoPay and long-term contracts significantly reduced churn risk.
 The final model achieved ROC-AUC = 0.84, demonstrating strong predictive ability.
