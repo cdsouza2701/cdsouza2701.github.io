@@ -1,6 +1,4 @@
-## Predicting Churn with Machine Learning Model: Logistic Regression
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1yZAnYGdJ4U6TAk9G8-oah76BchdXpnRr?usp=sharing
+## Predicting Churn with Machine Learning Model: Logistic Regression [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1yZAnYGdJ4U6TAk9G8-oah76BchdXpnRr?usp=sharing
 )
 
 ### 🧩 Project Overview: 
