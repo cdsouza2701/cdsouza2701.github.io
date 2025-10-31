@@ -1,5 +1,5 @@
 ## Predicting Churn with Machine Learning Model: Logistic Regression 
-📓 <a href="https://github.com/cdsouza2701/cdsouza2701/blob/main/Predicting_Churn_with_Machine_Learning_Model_Logistic_Regression.ipynb" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+📓 <a href="https://github.com/cdsouza2701/cdsouza2701/blob/main/Predicting_Churn_with_Machine_Learning_Model_Logistic_Regression.ipynb" target="_blank" rel="noopener noreferrer">View Project</a>
 
 
 
