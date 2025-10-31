@@ -14,26 +14,14 @@ Customer churn directly impacts recurring revenue. The challenge is to detect cu
 
 ### 📊 Key Insights:
 
-<div align="center" style="width: 60%; margin: auto;">
-  
-| Metric | Score |
-|:--------:|:------:|
-| Accuracy | **0.81** |
-| Precision | **0.77** |
-| Recall | **0.74** |
-| F1-score | **0.75** |
-| ROC-AUC | **0.84** |
-
-</div>
-
-<table style="width:55%; text-align:left; border-collapse:collapse;">
+<!-- <table style="width:55%; text-align:left; border-collapse:collapse;">
   <tr><th>Metric</th><th>Score</th></tr>
   <tr><td>Accuracy</td><td>0.81</td></tr>
   <tr><td>Precision</td><td>0.77</td></tr>
   <tr><td>Recall</td><td>0.74</td></tr>
   <tr><td>F1-score</td><td>0.75</td></tr>
   <tr><td>ROC-AUC</td><td>0.84</td></tr>
-</table>
+</table> -->
 
 <table style="width:55%; text-align:left; border-collapse:collapse;">
   <tr>
@@ -59,6 +47,37 @@ Customer churn directly impacts recurring revenue. The challenge is to detect cu
   <tr>
     <td style="padding:6px 8px;">ROC-AUC</td>
     <td style="padding:6px 8px; font-weight:bold;">0.84</td>
+  </tr>
+</table>
+
+<table style="border-collapse:collapse; width:260px; font-size:0.95rem;">
+  <tr>
+    <th style="border:1px solid #d0d7de; background-color:#f6f8fa; text-align:left; padding:8px 10px; font-weight:600;">
+      Metric
+    </th>
+    <th style="border:1px solid #d0d7de; background-color:#f6f8fa; text-align:left; padding:8px 10px; font-weight:600;">
+      Score
+    </th>
+  </tr>
+  <tr>
+    <td style="border:1px solid #d0d7de; padding:8px 10px;">Accuracy</td>
+    <td style="border:1px solid #d0d7de; padding:8px 10px;">0.81</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #d0d7de; padding:8px 10px;">Precision</td>
+    <td style="border:1px solid #d0d7de; padding:8px 10px;">0.77</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #d0d7de; padding:8px 10px;">Recall</td>
+    <td style="border:1px solid #d0d7de; padding:8px 10px;">0.74</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #d0d7de; padding:8px 10px;">F1-score</td>
+    <td style="border:1px solid #d0d7de; padding:8px 10px;">0.75</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid #d0d7de; padding:8px 10px;">ROC-AUC</td>
+    <td style="border:1px solid #d0d7de; padding:8px 10px;">0.84</td>
   </tr>
 </table>
 
