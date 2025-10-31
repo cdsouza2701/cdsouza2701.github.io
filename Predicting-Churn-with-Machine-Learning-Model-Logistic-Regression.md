@@ -13,6 +13,7 @@ Customer churn directly impacts recurring revenue. The challenge is to detect cu
 - **Evaluation:** Measured ROC-AUC (0.84), accuracy, and recall to optimize retention.  
 
 ### 📊 Key Insights:
+
 | Metric | Score |
 |:--------|:------|
 | Accuracy | **0.81** |
