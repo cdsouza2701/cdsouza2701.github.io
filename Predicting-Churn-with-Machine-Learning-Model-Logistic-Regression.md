@@ -21,6 +21,14 @@ Customer churn directly impacts recurring revenue. The challenge is to detect cu
 | F1-score | **0.75** |
 | ROC-AUC | **0.84** |
 
+| Metric     | Score |
+|------------|:-----:|
+| Accuracy   | 0.81  |
+| Precision  | 0.77  |
+| Recall     | 0.74  |
+| F1-score   | 0.75  |
+| ROC-AUC    | 0.84  |
+
 Customers with shorter tenure and higher monthly charges were most likely to churn.
 AutoPay and long-term contracts significantly reduced churn risk.
 The final model achieved ROC-AUC = 0.84, demonstrating strong predictive ability.
