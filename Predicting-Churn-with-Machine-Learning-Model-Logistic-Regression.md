@@ -1,5 +1,8 @@
 ## Predicting Churn with Machine Learning Model: Logistic Regression
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/YOUR_REPO/blob/main/YOUR_NOTEBOOK.ipynb)
+
+
 ### 🧩 Project Overview: 
 A predictive analytics project designed to identify customers likely to churn from a telecom service provider using a logistic regression model. The model helps reduce customer attrition and improve retention strategy.
 
@@ -23,7 +26,7 @@ Customer churn directly impacts recurring revenue. The challenge is to detect cu
   <tr><td>ROC-AUC</td><td>0.84</td></tr>
 </table> -->
 
-<table style="width:55%; text-align:left; border-collapse:collapse;">
+<!-- <table style="width:55%; text-align:left; border-collapse:collapse;">
   <tr>
     <th style="border-bottom:1px solid #ccc; padding:6px 8px;">Metric</th>
     <th style="border-bottom:1px solid #ccc; padding:6px 8px;">Score</th>
@@ -48,7 +51,7 @@ Customer churn directly impacts recurring revenue. The challenge is to detect cu
     <td style="padding:6px 8px;">ROC-AUC</td>
     <td style="padding:6px 8px; font-weight:bold;">0.84</td>
   </tr>
-</table>
+</table> -->
 
 <table style="border-collapse:collapse; width:260px; font-size:0.95rem;">
   <tr>
