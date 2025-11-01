@@ -77,17 +77,17 @@ These insights provide clear business actions — encourage AutoPay enrollment, 
 
 ### 🛠️ Tools & Techniques:
 
-<table style="border-collapse:collapse; width:260px; font-size:0.95rem;">
+<table style="border-collapse:collapse; width:300px; font-size:0.95rem;">
   <tr>
     <th style="border:1px solid #d0d7de; background-color:#f6f8fa; text-align:left; padding:8px 10px; font-weight:600;">Category</th>
     <th style="border:1px solid #d0d7de; background-color:#f6f8fa; text-align:left; padding:8px 10px; font-weight:600;">Tools / Libraries</th>
     <th style="border:1px solid #d0d7de; background-color:#f6f8fa; text-align:left; padding:8px 10px; font-weight:600;">Why Used</th>
   </tr>
-  <tr><td style="border:1px solid #d0d7de; padding:8px 10px;">Data Analysis</td><td style="border:1px solid #d0d7de; padding:8px 10px;">`pandas`, `numpy`</td><td style="border:1px solid #d0d7de; padding:8px 10px;">For cleaning and exploration</td></tr>
-  <tr><td style="border:1px solid #d0d7de; padding:8px 10px;">Visualization</td><td style="border:1px solid #d0d7de; padding:8px 10px;">`matplotlib`, `seaborn`</td><td style="border:1px solid #d0d7de; padding:8px 10px;">For visual pattern discovery</td></tr>
-  <tr><td style="border:1px solid #d0d7de; padding:8px 10px;">Preprocessing</td><td style="border:1px solid #d0d7de; padding:8px 10px;">`LabelEncoder`</td><td style="border:1px solid #d0d7de; padding:8px 10px;">Convert categorical to numeric</td></tr>
-  <tr><td style="border:1px solid #d0d7de; padding:8px 10px;">Modeling</td><td style="border:1px solid #d0d7de; padding:8px 10px;">`LogisticRegression` (scikit-learn)</td><td style="border:1px solid #d0d7de; padding:8px 10px;">Fast, interpretable binary classifier</td></tr>
-  <tr><td style="border:1px solid #d0d7de; padding:8px 10px;">Evaluation</td><td style="border:1px solid #d0d7de; padding:8px 10px;">`classification_report`, `confusion_matrix`, `accuracy_score`</td><td style="border:1px solid #d0d7de; padding:8px 10px;">To measure performance metrics</td></tr>
+  <tr><td style="border:1px solid #d0d7de; padding:8px 10px;">Data Analysis</td><td style="border:1px solid #d0d7de; padding:8px 10px;">pandas, numpy</td><td style="border:1px solid #d0d7de; padding:8px 10px;">For cleaning and exploration</td></tr>
+  <tr><td style="border:1px solid #d0d7de; padding:8px 10px;">Visualization</td><td style="border:1px solid #d0d7de; padding:8px 10px;">matplotlib, `seaborn`</td><td style="border:1px solid #d0d7de; padding:8px 10px;">For visual pattern discovery</td></tr>
+  <tr><td style="border:1px solid #d0d7de; padding:8px 10px;">Preprocessing</td><td style="border:1px solid #d0d7de; padding:8px 10px;">LabelEncoder</td><td style="border:1px solid #d0d7de; padding:8px 10px;">Convert categorical to numeric</td></tr>
+  <tr><td style="border:1px solid #d0d7de; padding:8px 10px;">Modeling</td><td style="border:1px solid #d0d7de; padding:8px 10px;">LogisticRegression (scikit-learn)</td><td style="border:1px solid #d0d7de; padding:8px 10px;">Fast, interpretable binary classifier</td></tr>
+  <tr><td style="border:1px solid #d0d7de; padding:8px 10px;">Evaluation</td><td style="border:1px solid #d0d7de; padding:8px 10px;">classification_report, confusion_matrix, accuracy_score</td><td style="border:1px solid #d0d7de; padding:8px 10px;">To measure performance metrics</td></tr>
 </table>
 
 | Category | Tools / Libraries | Why Used |
