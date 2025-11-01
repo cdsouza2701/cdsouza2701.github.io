@@ -77,7 +77,7 @@ These insights provide clear business actions — encourage AutoPay enrollment, 
 
 ### 🛠️ Tools & Techniques:
 
-<table style="border-collapse:collapse; width:380px; font-size:0.95rem;">
+<table style="border-collapse:collapse; width:500px; font-size:0.95rem;">
   <tr>
     <th style="border:1px solid #d0d7de; background-color:#f6f8fa; text-align:left; padding:8px 10px; font-weight:600;">Category</th>
     <th style="border:1px solid #d0d7de; background-color:#f6f8fa; text-align:left; padding:8px 10px; font-weight:600;">Tools / Libraries</th>
