@@ -76,6 +76,20 @@ The final model achieved ROC-AUC = 0.84, demonstrating strong predictive ability
 These insights provide clear business actions — encourage AutoPay enrollment, reward long-term contracts, and target short-tenure, high-charge customers with loyalty offers.
 
 ### 🛠️ Tools & Techniques:
+
+<table style="border-collapse:collapse; width:260px; font-size:0.95rem;">
+  <tr>
+    <th style="border:1px solid #d0d7de; background-color:#f6f8fa; text-align:left; padding:8px 10px; font-weight:600;">Category</th>
+    <th style="border:1px solid #d0d7de; background-color:#f6f8fa; text-align:left; padding:8px 10px; font-weight:600;">Tools / Libraries</th>
+    <th style="border:1px solid #d0d7de; background-color:#f6f8fa; text-align:left; padding:8px 10px; font-weight:600;">Why Used</th>
+  </tr>
+  <tr><td style="border:1px solid #d0d7de; padding:8px 10px;">Data Analysis</td><td style="border:1px solid #d0d7de; padding:8px 10px;">`pandas`, `numpy`</td><td style="border:1px solid #d0d7de; padding:8px 10px;">For cleaning and exploration</td></tr>
+  <tr><td style="border:1px solid #d0d7de; padding:8px 10px;">Visualization</td><td style="border:1px solid #d0d7de; padding:8px 10px;">`matplotlib`, `seaborn`</td><td style="border:1px solid #d0d7de; padding:8px 10px;">For visual pattern discovery</td></tr>
+  <tr><td style="border:1px solid #d0d7de; padding:8px 10px;">Preprocessing</td><td style="border:1px solid #d0d7de; padding:8px 10px;">0.74</td></tr>
+  <tr><td style="border:1px solid #d0d7de; padding:8px 10px;">Modeling</td><td style="border:1px solid #d0d7de; padding:8px 10px;">0.75</td></tr>
+  <tr><td style="border:1px solid #d0d7de; padding:8px 10px;">Evaluation</td><td style="border:1px solid #d0d7de; padding:8px 10px;">0.84</td></tr>
+</table>
+
 | Category | Tools / Libraries | Why Used |
 |-----------|------------------|-----------|
 | Data Analysis | `pandas`, `numpy` | For cleaning and exploration |
