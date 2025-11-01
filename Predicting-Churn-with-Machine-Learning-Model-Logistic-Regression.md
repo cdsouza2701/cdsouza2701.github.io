@@ -16,7 +16,7 @@ The challenge was to **detect customers most likely to leave**, using historical
 - **Data Cleaning:** Removed non-informative identifiers (e.g., `customerID`) and ensured numeric types were correctly set for all columns.  
 - **Feature Encoding:** Used `LabelEncoder` to transform categorical variables (e.g., `Contract`, `PaymentMethod`, `InternetService`) into numeric codes suitable for model training.  
 - **Model Training:** Trained a `LogisticRegression(max_iter=1000)` classifier on 80% of the data, using 20% for testing.  
-  - Logistic Regression was chosen for **its interpretability**, **speed**, and **probabilistic outputs**, which help rank customers by churn risk.  
+  - Logistic Regression was chosen for **its interpretability**, **speed**, and **probabilistic outputs**, which help rank customers by churn risk.
 - **Evaluation:** Used metrics like accuracy, precision, recall, F1-score, and ROC-AUC to assess predictive performance and balance between false positives/negatives.  
 
 ### 📊 Key Insights:
