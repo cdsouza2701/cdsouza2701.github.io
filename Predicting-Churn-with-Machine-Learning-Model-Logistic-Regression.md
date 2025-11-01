@@ -77,28 +77,38 @@ These insights provide clear business actions — encourage AutoPay enrollment, 
 
 ### 🛠️ Tools & Techniques:
 
-<table style="border-collapse:collapse; width:100%; font-size:0.95rem;"> <tr> <th style="border:1px solid #d0d7de; background-color:#f6f8fa; text-align:left; padding:8px 12px;">Category</th> <th style="border:1px solid #d0d7de; background-color:#f6f8fa; text-align:left; padding:8px 12px;">Tools / Libraries</th> <th style="border:1px solid #d0d7de; background-color:#f6f8fa; text-align:left; padding:8px 12px;">Why Used</th> </tr> <tr style="background-color:#ffffff;"> <td style="border:1px solid #d0d7de; padding:8px 12px;">Data Analysis</td> <td style="border:1px solid #d0d7de; padding:8px 12px;">pandas, numpy</td> <td style="border:1px solid #d0d7de; padding:8px 12px;">For cleaning and exploration</td> </tr> <tr style="background-color:#f6f8fa;"> <td style="border:1px solid #d0d7de; padding:8px 12px;">Visualization</td> <td style="border:1px solid #d0d7de; padding:8px 12px;">matplotlib, seaborn</td> <td style="border:1px solid #d0d7de; padding:8px 12px;">For visual pattern discovery</td> </tr> <tr style="background-color:#ffffff;"> <td style="border:1px solid #d0d7de; padding:8px 12px;">Preprocessing</td> <td style="border:1px solid #d0d7de; padding:8px 12px;">LabelEncoder</td> <td style="border:1px solid #d0d7de; padding:8px 12px;">Convert categorical to numeric</td> </tr> <tr style="background-color:#f6f8fa;"> <td style="border:1px solid #d0d7de; padding:8px 12px;">Modeling</td> <td style="border:1px solid #d0d7de; padding:8px 12px;">LogisticRegression (scikit-learn)</td> <td style="border:1px solid #d0d7de; padding:8px 12px;">Fast, interpretable binary classifier</td> </tr> <tr style="background-color:#ffffff;"> <td style="border:1px solid #d0d7de; padding:8px 12px;">Evaluation</td> <td style="border:1px solid #d0d7de; padding:8px 12px;">classification_report, confusion_matrix, accuracy_score</td> <td style="border:1px solid #d0d7de; padding:8px 12px;">To measure performance metrics</td> </tr> </table>
-
 <table style="border-collapse:collapse; width:100%; font-size:0.95rem;">
-  <tr>
-    <th style="border:1px solid #d0d7de; background-color:#f6f8fa; text-align:left; padding:8px 10px; font-weight:600;">Category</th>
-    <th style="border:1px solid #d0d7de; background-color:#f6f8fa; text-align:left; padding:8px 10px; font-weight:600;">Tools / Libraries</th>
-    <th style="border:1px solid #d0d7de; background-color:#f6f8fa; text-align:left; padding:8px 10px; font-weight:600;">Why Used</th>
-  </tr>
-  <tr><td style="border:1px solid #d0d7de; padding:8px 10px;">Data Analysis</td><td style="border:1px solid #d0d7de; padding:8px 10px;">pandas, numpy</td><td style="border:1px solid #d0d7de; padding:8px 10px;">For cleaning and exploration</td></tr>
-  <tr><td style="border:1px solid #d0d7de; padding:8px 10px;">Visualization</td><td style="border:1px solid #d0d7de; padding:8px 10px;">matplotlib, seaborn</td><td style="border:1px solid #d0d7de; padding:8px 10px;">For visual pattern discovery</td></tr>
-  <tr><td style="border:1px solid #d0d7de; padding:8px 10px;">Preprocessing</td><td style="border:1px solid #d0d7de; padding:8px 10px;">LabelEncoder</td><td style="border:1px solid #d0d7de; padding:8px 10px;">Convert categorical to numeric</td></tr>
-  <tr><td style="border:1px solid #d0d7de; padding:8px 10px;">Modeling</td><td style="border:1px solid #d0d7de; padding:8px 10px;">LogisticRegression (scikit-learn)</td><td style="border:1px solid #d0d7de; padding:8px 10px;">Fast, interpretable binary classifier</td></tr>
-  <tr><td style="border:1px solid #d0d7de; padding:8px 10px;">Evaluation</td><td style="border:1px solid #d0d7de; padding:8px 10px;">classification_report, confusion_matrix, accuracy_score</td><td style="border:1px solid #d0d7de; padding:8px 10px;">To measure performance metrics</td></tr>
+  <tr> 
+    <th style="border:1px solid #d0d7de; background-color:#f6f8fa; text-align:left; padding:8px 12px;">Category</th> 
+    <th style="border:1px solid #d0d7de; background-color:#f6f8fa; text-align:left; padding:8px 12px;">Tools / Libraries</th> 
+    <th style="border:1px solid #d0d7de; background-color:#f6f8fa; text-align:left; padding:8px 12px;">Why Used</th> 
+  </tr> 
+  <tr style="background-color:#ffffff;"> 
+    <td style="border:1px solid #d0d7de; padding:8px 12px;">Data Analysis</td> 
+    <td style="border:1px solid #d0d7de; padding:8px 12px;">pandas, numpy</td> 
+    <td style="border:1px solid #d0d7de; padding:8px 12px;">For cleaning and exploration</td> 
+  </tr> 
+  <tr style="background-color:#f6f8fa;"> 
+    <td style="border:1px solid #d0d7de; padding:8px 12px;">Visualization</td> 
+    <td style="border:1px solid #d0d7de; padding:8px 12px;">matplotlib, seaborn</td> 
+    <td style="border:1px solid #d0d7de; padding:8px 12px;">For visual pattern discovery</td> 
+  </tr> 
+  <tr style="background-color:#ffffff;"> 
+    <td style="border:1px solid #d0d7de; padding:8px 12px;">Preprocessing</td> 
+    <td style="border:1px solid #d0d7de; padding:8px 12px;">LabelEncoder</td> 
+    <td style="border:1px solid #d0d7de; padding:8px 12px;">Convert categorical to numeric</td> 
+  </tr> 
+  <tr style="background-color:#f6f8fa;"> 
+    <td style="border:1px solid #d0d7de; padding:8px 12px;">Modeling</td> 
+    <td style="border:1px solid #d0d7de; padding:8px 12px;">LogisticRegression (scikit-learn)</td> 
+    <td style="border:1px solid #d0d7de; padding:8px 12px;">Fast, interpretable binary classifier</td> 
+  </tr> 
+  <tr style="background-color:#ffffff;"> 
+    <td style="border:1px solid #d0d7de; padding:8px 12px;">Evaluation</td> 
+    <td style="border:1px solid #d0d7de; padding:8px 12px;">classification_report, confusion_matrix, accuracy_score</td> 
+    <td style="border:1px solid #d0d7de; padding:8px 12px;">To measure performance metrics</td> 
+  </tr> 
 </table>
-
-| Category | Tools / Libraries | Why Used |
-|-----------|------------------|-----------|
-| Data Analysis | `pandas`, `numpy` | For cleaning and exploration |
-| Visualization | `matplotlib`, `seaborn` | For visual pattern discovery |
-| Preprocessing | `LabelEncoder` | Convert categorical to numeric |
-| Modeling | `LogisticRegression` (scikit-learn) | Fast, interpretable binary classifier |
-| Evaluation | `classification_report`, `confusion_matrix`, `accuracy_score` | To measure performance metrics |
 
 ### 🚀 Outcome:
 Delivered a complete, reproducible **machine learning pipeline** to predict customer churn with 81% accuracy and 0.84 ROC-AUC.  
