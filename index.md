@@ -4,7 +4,7 @@
 
 ---
 
-### Data Analysis
+### 📈 Data Analysis
 #### Customer Churn Analysis During Black Friday
 #### [Learn more about the project](/sample_page) <br> 
 **Tools:** Power BI, SQL <br>
@@ -24,7 +24,7 @@
 
 ---
 
-### Machine Learning
+### 🤖 Machine Learning Projects
 
 ---
 
