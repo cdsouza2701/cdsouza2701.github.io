@@ -21,40 +21,32 @@ The challenge was to **detect customers most likely to leave**, using historical
 
 ### 📊 Key Insights:
 
-<table style="border-collapse:collapse; width:260px; font-size:0.95rem;">
-  <tr>
-    <th style="border:1px solid #d0d7de; background-color:#f6f8fa; text-align:left; padding:8px 10px; font-weight:600;">
-      Metric
-    </th>
-    <th style="border:1px solid #d0d7de; background-color:#f6f8fa; text-align:left; padding:8px 10px; font-weight:600;">
-      Score
-    </th>
-  </tr>
-  <tr>
-    <td style="border:1px solid #d0d7de; padding:8px 10px;">Accuracy</td>
-    <td style="border:1px solid #d0d7de; padding:8px 10px;">0.81</td>
-  </tr>
-  <tr>
-    <td style="border:1px solid #d0d7de; padding:8px 10px;">Precision</td>
-    <td style="border:1px solid #d0d7de; padding:8px 10px;">0.77</td>
-  </tr>
-  <tr>
-    <td style="border:1px solid #d0d7de; padding:8px 10px;">Recall</td>
-    <td style="border:1px solid #d0d7de; padding:8px 10px;">0.74</td>
-  </tr>
-  <tr>
-    <td style="border:1px solid #d0d7de; padding:8px 10px;">F1-score</td>
-    <td style="border:1px solid #d0d7de; padding:8px 10px;">0.75</td>
-  </tr>
-  <tr>
-    <td style="border:1px solid #d0d7de; padding:8px 10px;">ROC-AUC</td>
-    <td style="border:1px solid #d0d7de; padding:8px 10px;">0.84</td>
-  </tr>
+<table style="border-collapse:collapse; width:260px; font-size:0.95rem;"> 
+  <tr> 
+    <th style="border:1px solid #d0d7de; background-color:#f6f8fa; text-align:left; padding:8px 10px; font-weight:600;">Metric</th> 
+    <th style="border:1px solid #d0d7de; background-color:#f6f8fa; text-align:left; padding:8px 10px; font-weight:600;">Score</th> 
+  </tr> 
+  <tr style="background-color:#ffffff;"> 
+    <td style="border:1px solid #d0d7de; padding:8px 10px;">Accuracy</td> 
+    <td style="border:1px solid #d0d7de; padding:8px 10px;">0.81</td> 
+  </tr> 
+  <tr style="background-color:#f6f8fa;"> 
+    <td style="border:1px solid #d0d7de; padding:8px 10px;">Precision</td> 
+    <td style="border:1px solid #d0d7de; padding:8px 10px;">0.77</td> 
+  </tr> 
+  <tr style="background-color:#ffffff;"> 
+    <td style="border:1px solid #d0d7de; padding:8px 10px;">Recall</td> 
+    <td style="border:1px solid #d0d7de; padding:8px 10px;">0.74</td> 
+  </tr> 
+  <tr style="background-color:#f6f8fa;"> 
+    <td style="border:1px solid #d0d7de; padding:8px 10px;">F1-score</td> 
+    <td style="border:1px solid #d0d7de; padding:8px 10px;">0.75</td> 
+  </tr> 
+  <tr style="background-color:#ffffff;"> 
+    <td style="border:1px solid #d0d7de; padding:8px 10px;">ROC-AUC</td> 
+    <td style="border:1px solid #d0d7de; padding:8px 10px;">0.84</td> 
+  </tr> 
 </table>
-
-Customers with shorter tenure and higher monthly charges were most likely to churn.
-AutoPay and long-term contracts significantly reduced churn risk.
-The final model achieved ROC-AUC = 0.84, demonstrating strong predictive ability.
 
 <table style="border-collapse:collapse; width:260px; font-size:0.95rem;">
   <tr>
