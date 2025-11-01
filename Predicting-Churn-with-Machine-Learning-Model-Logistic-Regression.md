@@ -85,9 +85,9 @@ These insights provide clear business actions — encourage AutoPay enrollment, 
   </tr>
   <tr><td style="border:1px solid #d0d7de; padding:8px 10px;">Data Analysis</td><td style="border:1px solid #d0d7de; padding:8px 10px;">`pandas`, `numpy`</td><td style="border:1px solid #d0d7de; padding:8px 10px;">For cleaning and exploration</td></tr>
   <tr><td style="border:1px solid #d0d7de; padding:8px 10px;">Visualization</td><td style="border:1px solid #d0d7de; padding:8px 10px;">`matplotlib`, `seaborn`</td><td style="border:1px solid #d0d7de; padding:8px 10px;">For visual pattern discovery</td></tr>
-  <tr><td style="border:1px solid #d0d7de; padding:8px 10px;">Preprocessing</td><td style="border:1px solid #d0d7de; padding:8px 10px;">0.74</td></tr>
-  <tr><td style="border:1px solid #d0d7de; padding:8px 10px;">Modeling</td><td style="border:1px solid #d0d7de; padding:8px 10px;">0.75</td></tr>
-  <tr><td style="border:1px solid #d0d7de; padding:8px 10px;">Evaluation</td><td style="border:1px solid #d0d7de; padding:8px 10px;">0.84</td></tr>
+  <tr><td style="border:1px solid #d0d7de; padding:8px 10px;">Preprocessing</td><td style="border:1px solid #d0d7de; padding:8px 10px;">`LabelEncoder`</td><td style="border:1px solid #d0d7de; padding:8px 10px;">Convert categorical to numeric</td></tr>
+  <tr><td style="border:1px solid #d0d7de; padding:8px 10px;">Modeling</td><td style="border:1px solid #d0d7de; padding:8px 10px;">`LogisticRegression` (scikit-learn)</td><td style="border:1px solid #d0d7de; padding:8px 10px;">Fast, interpretable binary classifier</td></tr>
+  <tr><td style="border:1px solid #d0d7de; padding:8px 10px;">Evaluation</td><td style="border:1px solid #d0d7de; padding:8px 10px;">`classification_report`, `confusion_matrix`, `accuracy_score`</td><td style="border:1px solid #d0d7de; padding:8px 10px;">To measure performance metrics</td></tr>
 </table>
 
 | Category | Tools / Libraries | Why Used |
