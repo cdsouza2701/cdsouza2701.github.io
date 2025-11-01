@@ -73,7 +73,7 @@ These insights provide clear business actions — encourage AutoPay enrollment, 
   <tr> 
     <th style="border:1px solid #d0d7de; background-color:#f6f8fa; text-align:left; padding:8px 12px;">Category</th> 
     <th style="border:1px solid #d0d7de; background-color:#f6f8fa; text-align:left; padding:8px 12px;">Tools / Libraries</th> 
-    <th style="border:1px solid #d0d7de; background-color:#f6f8fa; text-align:left; padding:8px 12px;">Why Used</th> 
+    <th style="border:1px solid #d0d7de; background-color:#f6f8fa; text-align:left; padding:8px 12px;">Reason for Use</th> 
   </tr> 
   <tr style="background-color:#ffffff;"> 
     <td style="border:1px solid #d0d7de; padding:8px 12px;">Data Analysis</td> 
