@@ -6,52 +6,20 @@
 ### 🧩 Project Overview: 
 A predictive analytics project designed to identify customers likely to churn from a telecom service provider using a logistic regression model. The model helps reduce customer attrition and improve retention strategy.
 
+
 ### 💡 Problem Statement: 
-Customer churn directly impacts recurring revenue. The challenge is to detect customers at risk of leaving, using historical usage and contract data.
+Customer churn directly affects recurring revenue and profitability.  
+The challenge was to **detect customers most likely to leave**, using historical service and demographic data — enabling proactive retention actions such as targeted offers and contract renewals.
 
 ### 🔍 Approach: 
-- **Data Cleaning:** Removed identifiers, handled missing values, and encoded categorical features.  
-- **Feature Engineering:** Scaled numerical features and applied one-hot encoding.  
-- **Modeling:** Logistic Regression with `class_weight='balanced'` to address churn imbalance.  
-- **Evaluation:** Measured ROC-AUC (0.84), accuracy, and recall to optimize retention.  
+- **Data Exploration:** Verified data completeness (no missing values) and examined customer trends such as tenure and contract type.  
+- **Data Cleaning:** Removed non-informative identifiers (e.g., `customerID`) and ensured numeric types were correctly set for all columns.  
+- **Feature Encoding:** Used `LabelEncoder` to transform categorical variables (e.g., `Contract`, `PaymentMethod`, `InternetService`) into numeric codes suitable for model training.  
+- **Model Training:** Trained a `LogisticRegression(max_iter=1000)` classifier on 80% of the data, using 20% for testing.  
+  - Logistic Regression was chosen for **its interpretability**, **speed**, and **probabilistic outputs**, which help rank customers by churn risk.  
+- **Evaluation:** Used metrics like accuracy, precision, recall, F1-score, and ROC-AUC to assess predictive performance and balance between false positives/negatives.  
 
 ### 📊 Key Insights:
-
-<!-- <table style="width:55%; text-align:left; border-collapse:collapse;">
-  <tr><th>Metric</th><th>Score</th></tr>
-  <tr><td>Accuracy</td><td>0.81</td></tr>
-  <tr><td>Precision</td><td>0.77</td></tr>
-  <tr><td>Recall</td><td>0.74</td></tr>
-  <tr><td>F1-score</td><td>0.75</td></tr>
-  <tr><td>ROC-AUC</td><td>0.84</td></tr>
-</table> -->
-
-<!-- <table style="width:55%; text-align:left; border-collapse:collapse;">
-  <tr>
-    <th style="border-bottom:1px solid #ccc; padding:6px 8px;">Metric</th>
-    <th style="border-bottom:1px solid #ccc; padding:6px 8px;">Score</th>
-  </tr>
-  <tr>
-    <td style="border-bottom:1px solid #eee; padding:6px 8px;">Accuracy</td>
-    <td style="border-bottom:1px solid #eee; padding:6px 8px; font-weight:bold;">0.81</td>
-  </tr>
-  <tr>
-    <td style="border-bottom:1px solid #eee; padding:6px 8px;">Precision</td>
-    <td style="border-bottom:1px solid #eee; padding:6px 8px; font-weight:bold;">0.77</td>
-  </tr>
-  <tr>
-    <td style="border-bottom:1px solid #eee; padding:6px 8px;">Recall</td>
-    <td style="border-bottom:1px solid #eee; padding:6px 8px; font-weight:bold;">0.74</td>
-  </tr>
-  <tr>
-    <td style="border-bottom:1px solid #eee; padding:6px 8px;">F1-score</td>
-    <td style="border-bottom:1px solid #eee; padding:6px 8px; font-weight:bold;">0.75</td>
-  </tr>
-  <tr>
-    <td style="padding:6px 8px;">ROC-AUC</td>
-    <td style="padding:6px 8px; font-weight:bold;">0.84</td>
-  </tr>
-</table> -->
 
 <table style="border-collapse:collapse; width:260px; font-size:0.95rem;">
   <tr>
@@ -88,11 +56,37 @@ Customers with shorter tenure and higher monthly charges were most likely to chu
 AutoPay and long-term contracts significantly reduced churn risk.
 The final model achieved ROC-AUC = 0.84, demonstrating strong predictive ability.
 
+<table style="border-collapse:collapse; width:260px; font-size:0.95rem;">
+  <tr>
+    <th style="border:1px solid #d0d7de; background-color:#f6f8fa; text-align:left; padding:8px 10px; font-weight:600;">Metric</th>
+    <th style="border:1px solid #d0d7de; background-color:#f6f8fa; text-align:left; padding:8px 10px; font-weight:600;">Score</th>
+  </tr>
+  <tr><td style="border:1px solid #d0d7de; padding:8px 10px;">Accuracy</td><td style="border:1px solid #d0d7de; padding:8px 10px;">0.81</td></tr>
+  <tr><td style="border:1px solid #d0d7de; padding:8px 10px;">Precision</td><td style="border:1px solid #d0d7de; padding:8px 10px;">0.77</td></tr>
+  <tr><td style="border:1px solid #d0d7de; padding:8px 10px;">Recall</td><td style="border:1px solid #d0d7de; padding:8px 10px;">0.74</td></tr>
+  <tr><td style="border:1px solid #d0d7de; padding:8px 10px;">F1-score</td><td style="border:1px solid #d0d7de; padding:8px 10px;">0.75</td></tr>
+  <tr><td style="border:1px solid #d0d7de; padding:8px 10px;">ROC-AUC</td><td style="border:1px solid #d0d7de; padding:8px 10px;">0.84</td></tr>
+</table>
+
+- **Customers with short tenure and high monthly charges** were most likely to churn.  
+- **AutoPay** and **long-term contracts** significantly reduced churn risk.  
+- The model achieved a **ROC-AUC of 0.84**, indicating strong ability to separate churners from non-churners.  
+
+**Why it matters:**  
+These insights provide clear business actions — encourage AutoPay enrollment, reward long-term contracts, and target short-tenure, high-charge customers with loyalty offers.
+
 ### 🛠️ Tools & Techniques:
-Python, pandas, scikit-learn, matplotlib, Logistic Regression, OneHotEncoder, StandardScaler
+| Category | Tools / Libraries | Why Used |
+|-----------|------------------|-----------|
+| Data Analysis | `pandas`, `numpy` | For cleaning and exploration |
+| Visualization | `matplotlib`, `seaborn` | For visual pattern discovery |
+| Preprocessing | `LabelEncoder` | Convert categorical to numeric |
+| Modeling | `LogisticRegression` (scikit-learn) | Fast, interpretable binary classifier |
+| Evaluation | `classification_report`, `confusion_matrix`, `accuracy_score` | To measure performance metrics |
 
 ### 🚀 Outcome:
-Delivered a reproducible machine learning pipeline and visual churn analysis notebook, providing an actionable baseline for future retention analytics.
+Delivered a complete, reproducible **machine learning pipeline** to predict customer churn with 81% accuracy and 0.84 ROC-AUC.  
+The project demonstrates end-to-end implementation — from data cleaning to business insights — and serves as a baseline for future experiments with advanced models (e.g., Random Forest or XGBoost).
 
 
 ### 1. Suggest hypotheses about the causes of observed phenomena
