@@ -1,19 +1,12 @@
 title: Chelsea DSouza's Project Portfolio # your name (or website title) here
 logo: "/images/profile-modified.png?raw=true" # your photo (or logo) here
 description: > 
-  Data Analyst with a focus on reporting, data visualization, and business insights.
-  Committed to data-driven decision-making.
-  Digital Business & Data Science Graduate.1
-
-  Main Skills:
-  
-
 # your text below (remove <br> elements if you don't need line breaks)
-#   <br><br>
-#   Data Analyst with a focus on reporting, data visualization, and business insights. <br>
-#   Committed to data-driven decision-making. <br>
-#   Digital Business & Data Science Graduate
-#   <br><br>
+   <br><br>
+   Data Analyst with a focus on reporting, data visualization, and business insights. <br>
+   Committed to data-driven decision-making. <br>
+   Digital Business & Data Science Graduate
+   <br><br>
   
   <a href="https://www.linkedin.com/in/chelsea-a-d-souza-2701/" target= "_blank">View My LinkedIn Profile</a> <!-- the  target= "_blank" is what made the link open in another tab. -->
   
