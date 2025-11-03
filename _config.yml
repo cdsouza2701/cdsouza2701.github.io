@@ -11,10 +11,6 @@ description: > # your text below (remove <br> elements if you don't need line br
   <a href="https://www.linkedin.com/in/chelsea-a-d-souza-2701/" target="_blank" style="display:inline-flex;align-items:center;gap:6px;">
   <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" width="15" height="15" alt="LinkedIn" style="filter:invert(23%) sepia(94%) saturate(1500%) hue-rotate(190deg) brightness(105%) contrast(90%);">
   View My LinkedIn Profile</a>
-  <br><br>
-  ⚙️ <strong>Skills:</strong>
-   <br><br>
-   
  
   
 theme: jekyll-theme-minimal
