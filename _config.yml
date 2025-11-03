@@ -1,12 +1,12 @@
 title: Chelsea DSouza # your name (or website title) here
 logo: "/images/profile-modified.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  <br><br>
-  Data Analyst with a focus on reporting, data visualization, and business insights.
-  <br><br>
-  Committed to data-driven decision-making.
-  <br><br>
   Digital Business & Data Science Graduate
+  <br><br>
+  About me: <br>
+    Data Analyst with a focus on reporting, data visualization, and business insights. Committed to data-driven decision-making.
+  <br><br>
+  
   <br><br>
   
   <a href="https://www.linkedin.com/in/chelsea-a-d-souza-2701/" target= "_blank">View My LinkedIn Profile</a> <!-- the  target= "_blank" is what made the link open in another tab. -->
