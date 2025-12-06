@@ -12,25 +12,6 @@
 **Summary:** Built a dashboard to track churn behavior when customers canceled existing licenses to use Black Friday discounts. Tracked KPIs like impressions, views, and regions to inform management.-->
  <!--  Assets to Add: Screenshot of dashboard, PDF export from Power BI -->
 
- ### 📈 Automation Projects - Coming soon
-<!-- ---
-#### Automation Project
-#### [Learn more about the project](/sample_page) <br> 
-**Tools:** Power BI, SQL <br>
-**Summary:** Built a dashboard to track churn behavior when customers canceled existing licenses to use Black Friday discounts. Tracked KPIs like impressions, views, and regions to inform management.-->
- <!--  Assets to Add: Screenshot of dashboard, PDF export from Power BI -->
-
- <!-- ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>-->
-
-
-<!--[Project 3 Title](http://example.com/)-->
-<!-- [Project 3 Title](http://example.com/) -->
-<!-- <img src="images/dummy_thumbnail.jpg?raw=true"/>-->
-
-
----
 
 
 ### 📈 Data Analysis Projects
@@ -70,6 +51,28 @@
 - [Project 3 Title](http://example.com/)
 - [Project 4 Title](http://example.com/)
 - [Project 5 Title](http://example.com/)-->
+
+---
+
+ ### 📈 Automation Projects - Coming soon
+<!-- ---
+#### Automation Project
+#### [Learn more about the project](/sample_page) <br> 
+**Tools:** Power BI, SQL <br>
+**Summary:** Built a dashboard to track churn behavior when customers canceled existing licenses to use Black Friday discounts. Tracked KPIs like impressions, views, and regions to inform management.-->
+ <!--  Assets to Add: Screenshot of dashboard, PDF export from Power BI -->
+
+ <!-- ---
+[Project 2 Title](/pdf/sample_presentation.pdf)
+<img src="images/dummy_thumbnail.jpg?raw=true"/>-->
+
+
+<!--[Project 3 Title](http://example.com/)-->
+<!-- [Project 3 Title](http://example.com/) -->
+<!-- <img src="images/dummy_thumbnail.jpg?raw=true"/>-->
+
+
+
 
 
 
