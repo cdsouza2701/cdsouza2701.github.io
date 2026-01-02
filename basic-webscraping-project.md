@@ -18,7 +18,8 @@ The objective of this project was to:
 
 ### 2. Data Source
 
-**Website:** http://quotes.toscrape.com
+**Website:** <a href="http://quotes.toscrape.com"></a>
+
 
 **Data Type:** Publicly available textual content
 
@@ -41,8 +42,40 @@ Identified and extracted relevant HTML elements using tag names and CSS class se
 4. **Iteration & Output:**
 Paired quotes with their corresponding authors and produced clean, readable output for validation.
 
-### 4. Provide a basis for further data collection through surveys or experiments
+### 4. Tools & Technologies
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+- Python
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+- Requests
+
+- Beautiful Soup
+
+- HTML (DOM structure & CSS classes)
+
+### 5. Key Learnings
+
+- How HTTP requests retrieve web content programmatically
+
+- How to inspect and navigate HTML document structures
+
+- How to extract repeated elements using class-based selectors
+
+- How to pair related data fields accurately
+
+- Importance of validating scraped data before further processing
+
+### 6. Limitations
+
+- Scraping is limited to a single static page
+
+- Extracted data is printed to the console rather than stored
+
+- Pagination and advanced error handling are not implemented
+
+### 7. Legal & Ethical Considerations
+
+Web scraping is not permitted on all websites and must always be performed in compliance with a website’s terms of service and access policies.
+
+For this project, quotes.toscrape.com was intentionally selected because it is a publicly available demonstration site created specifically for practicing web scraping. The content is openly accessible, does not require authentication, and permits automated access for educational purposes.
+
+No personal, sensitive, or proprietary data was collected as part of this project.
