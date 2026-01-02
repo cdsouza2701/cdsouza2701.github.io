@@ -3,12 +3,12 @@
 # Projects Portfolio
 
 
-### 📈 Building Dashboards
+<!-- ### 📈 Building Dashboards
 
 #### Customer Churn Analysis During Black Friday
 #### [Learn more about the project](/sample_page) <br> 
 **Tools:** Power BI, SQL <br>
-**Summary:** Built a dashboard to track churn behavior when customers canceled existing licenses to use Black Friday discounts. Tracked KPIs like impressions, views, and regions to inform management.
+**Summary:** Built a dashboard to track churn behavior when customers canceled existing licenses to use Black Friday discounts. Tracked KPIs like impressions, views, and regions to inform management. -->
  <!--  Assets to Add: Screenshot of dashboard, PDF export from Power BI -->
 
 ---
@@ -20,6 +20,11 @@
 **Tools:** Power BI, SQL <br>
 **Summary:** Built a dashboard to track churn behavior when customers canceled existing licenses to use Black Friday discounts. Tracked KPIs like impressions, views, and regions to inform management.
  <!--  Assets to Add: Screenshot of dashboard, PDF export from Power BI -->
+
+<!-- #### Customer Churn Analysis During Black Friday
+#### [Learn more about the project](/sample_page) <br> 
+**Tools:** Power BI, SQL <br>
+**Summary:** Built a dashboard to track churn behavior when customers canceled existing licenses to use Black Friday discounts. Tracked KPIs like impressions, views, and regions to inform management. -->
 
  <!-- ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
