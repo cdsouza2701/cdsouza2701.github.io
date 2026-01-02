@@ -15,7 +15,7 @@
 
 ### 📈 Data Analysis Projects
 
-#### SaaS Revenue & Churn Analysis (SQL)
+#### SaaS Revenue & Churn Analysis
 #### [Learn more about the project](/sample_page) <br> 
 **Tools:** SQL (SQLite), Google Colab <br>
 **Summary:** Built a dashboard to track churn behavior when customers canceled existing licenses to use Black Friday discounts. Tracked KPIs like impressions, views, and regions to inform management.
