@@ -36,10 +36,22 @@
 
 ### 📈 Web Scraping Projects
 
-#### Scraping website to pull data
+#### Web Scraping with Python & Beautiful Soup
 #### [Learn more about the project](/sample_page) <br> 
-**Tools:** Python, Beautiful Soup Library, HTML Knowledge <br>
-**Summary:** Built a dashboard to track churn behavior when customers canceled existing licenses to use Black Friday discounts. Tracked KPIs like impressions, views, and regions to inform management.
+**Tools:** Python, Requests, Beautiful Soup, HTML Parsing <br>
+**Summary:** Built a Python script to scrape structured data from a live website using the Requests and Beautiful Soup libraries. The script sends HTTP requests, parses HTML content, and extracts specific elements (quotes and authors) based on tag structure and CSS classes.
+
+The project demonstrates core web scraping concepts, including:
+
+- Making HTTP requests to retrieve web page content
+
+- Parsing and navigating HTML using Beautiful Soup
+
+- Extracting multiple related data points and iterating through them
+
+- Cleaning and formatting scraped text output
+
+This project served as a foundation for understanding how raw web data can be collected and later transformed for analysis or storage.
  <!--  Assets to Add: Screenshot of dashboard, PDF export from Power BI -->
 
  <!-- ---
