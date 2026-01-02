@@ -18,7 +18,7 @@ The objective of this project was to:
 
 ### 2. Data Source
 
-**Website:** <a href="http://quotes.toscrape.com"></a>
+**Website:** <a href="http://quotes.toscrape.com">http://quotes.toscrape.com</a>
 
 
 **Data Type:** Publicly available textual content
@@ -76,6 +76,6 @@ Paired quotes with their corresponding authors and produced clean, readable outp
 
 Web scraping is not permitted on all websites and must always be performed in compliance with a website’s terms of service and access policies.
 
-For this project, quotes.toscrape.com was intentionally selected because it is a publicly available demonstration site created specifically for practicing web scraping. The content is openly accessible, does not require authentication, and permits automated access for educational purposes.
+For this project, <a href="http://quotes.toscrape.com">http://quotes.toscrape.com</a> was intentionally selected because it is a publicly available demonstration site created specifically for practicing web scraping. The content is openly accessible, does not require authentication, and permits automated access for educational purposes.
 
 No personal, sensitive, or proprietary data was collected as part of this project.
