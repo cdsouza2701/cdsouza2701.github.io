@@ -51,7 +51,7 @@
 
 ---
 
- ### 📈 Automation Projects
+### 📈 Automation Projects
 
 #### Web Scraping with Python & Beautiful Soup
 #### [Learn more about the project](/basic-webscraping-project.md) <br> 
