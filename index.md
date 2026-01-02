@@ -55,6 +55,7 @@
 ---
 
  ### 📈 Automation Projects - Coming soon
+ 
 <!-- ---
 #### Automation Project
 #### [Learn more about the project](/sample_page) <br> 
