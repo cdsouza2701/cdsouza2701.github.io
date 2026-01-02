@@ -30,16 +30,15 @@ The objective of this project was to:
 
 ### 3. Methodology
 
-1. HTTP Request
-Used the requests library to send a GET request and retrieve the page’s HTML content.
+1. **HTTP Request:** Used the requests library to send a GET request and retrieve the page’s HTML content.
 
-2. HTML Parsing
+2. **HTML Parsing:**
 Parsed the returned HTML using Beautiful Soup and the built-in html.parser.
 
-3. Data Extraction
+3. **Data Extraction:**
 Identified and extracted relevant HTML elements using tag names and CSS class selectors.
 
-4. Iteration & Output
+4. **Iteration & Output:**
 Paired quotes with their corresponding authors and produced clean, readable output for validation.
 
 ### 4. Provide a basis for further data collection through surveys or experiments
