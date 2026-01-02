@@ -28,11 +28,19 @@ The objective of this project was to:
 
 - Author name
 
-The website was chosen because it provides a clear HTML structure suitable for learning web scraping fundamentals.
+### 3. Methodology
 
-### 3. Support the selection of appropriate statistical tools and techniques
+1. HTTP Request
+Used the requests library to send a GET request and retrieve the page’s HTML content.
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+2. HTML Parsing
+Parsed the returned HTML using Beautiful Soup and the built-in html.parser.
+
+3. Data Extraction
+Identified and extracted relevant HTML elements using tag names and CSS class selectors.
+
+4. Iteration & Output
+Paired quotes with their corresponding authors and produced clean, readable output for validation.
 
 ### 4. Provide a basis for further data collection through surveys or experiments
 
