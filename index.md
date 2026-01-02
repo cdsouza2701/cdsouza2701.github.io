@@ -37,7 +37,7 @@
 ### 📈 Web Scraping Projects
 
 #### Web Scraping with Python & Beautiful Soup
-#### [Learn more about the project](/sample_page) <br> 
+#### [Learn more about the project](/basic-webscraping-project.md) <br> 
 **Tools:** Python, Requests, Beautiful Soup, HTML Parsing <br>
 **Summary:** Built a Python script to scrape structured data from a live website using the Requests and Beautiful Soup libraries. The script sends HTTP requests, parses HTML content, and extracts specific elements (quotes and authors) based on tag structure and CSS classes.
 
