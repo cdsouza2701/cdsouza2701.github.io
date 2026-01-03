@@ -15,6 +15,12 @@
 
 ### 📈 Data Analysis Projects
 
+#### User Growth & Acquisition Analysis (SQL)
+#### [Learn more about the project](/sample_page) <br> 
+**Tools:** SQL (SQLite), Google Colab, Data Analysis <br>
+**Summary:** Analyzed user sign-up data to understand growth trends, acquisition channels, and geographic performance. Answered key business questions around user growth, retention signals, and marketing effectiveness using SQL queries.
+ <!--  Assets to Add: Screenshot of dashboard, PDF export from Power BI -->
+
 #### SaaS Revenue & Churn Analysis (SQL)
 #### [Learn more about the project](/sample_page) <br> 
 **Tools:** SQL (SQLite), Google Colab <br>
