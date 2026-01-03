@@ -54,7 +54,7 @@ From the analysis, I was able to:
 
 - Beyond technical skills, this project strengthened my ability to think analytically about data, frame the right questions, and interpret results in a business context.
 
-- ### 📌 Skills & Business Impact
+### 📌 Skills & Business Impact
 
 This project shows how SQL can be used to support business and product decisions by turning raw user data into actionable insights.
 
