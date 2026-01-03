@@ -1,5 +1,5 @@
 ## 📊 User Growth & Acquisition Analysis Using SQL
-📓 <a href="https://github.com/cdsouza2701/cdsouza2701/blob/7d14a1bb77ce90b3c94cb7f2e3448c6c1eb31ab9/Exploring_a_SaaS_Database.ipynb" target="_blank" rel="noopener noreferrer">View Project Code</a>
+📓 <a href="https://github.com/cdsouza2701/cdsouza2701/blob/97de44716a41fc5d8bf0b52e643c2990a7543d08/PP_User_Growth_%26_Acquisition_Analysis_Using_SQL.ipynb" target="_blank" rel="noopener noreferrer">View Project Code</a>
 
 ### 🧩 Project Overview: 
 This project focuses on analyzing a user database using SQL to understand how users are acquired, how growth changes over time, and which markets and channels perform best.
