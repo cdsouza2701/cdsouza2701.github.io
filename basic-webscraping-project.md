@@ -1,4 +1,4 @@
-## Basic Webscraping
+## Webscraping
 📓 <a href="https://github.com/cdsouza2701/cdsouza2701/blob/dcbac02185120ad2f3467417b4d66e975318a050/Webscraper.ipynb" target="_blank" rel="noopener noreferrer">View Project Code</a>
 
 **Project description:** This project focuses on building a simple yet reliable web scraping pipeline using Python. The goal was to extract structured information from a publicly available website by sending HTTP requests, parsing HTML content, and isolating relevant data fields.
