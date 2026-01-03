@@ -19,7 +19,8 @@ The objective of this project was to:
 
 ### 2. Data Source
 
-**Website:** <a href="http://quotes.toscrape.com"target="_blank">http://quotes.toscrape.com</a>
+**Website:** 
+<a href="http://quotes.toscrape.com" target="_blank">http://quotes.toscrape.com</a>
 
 
 **Data Type:** Publicly available textual content
