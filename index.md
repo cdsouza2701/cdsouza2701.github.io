@@ -2,20 +2,11 @@
 
 # Projects Portfolio
 
-
-<!-- ### 📈 Building Dashboards
-
-#### Customer Churn Analysis During Black Friday
-#### [Learn more about the project](/sample_page) <br> 
-**Tools:** Power BI, SQL <br>
-**Summary:** Built a dashboard to track churn behavior when customers canceled existing licenses to use Black Friday discounts. Tracked KPIs like impressions, views, and regions to inform management. -->
- <!--  Assets to Add: Screenshot of dashboard, PDF export from Power BI -->
-
 ---
 
 ### 📈 Data Analysis Projects
 
-#### User Growth & Acquisition Analysis (SQL)
+#### 📊 User Growth & Acquisition Analysis (SQL)
 #### [Learn more about the project](/sql_user_analysis.md) <br> 
 **Tools:** SQL (SQLite), Google Colab, Data Analysis <br>
 **Summary:** Analyzed user sign-up data to understand growth trends, acquisition channels, and geographic performance. Answered key business questions around user growth, retention signals, and marketing effectiveness using SQL queries.
