@@ -41,7 +41,7 @@
 
 ### 🤖 Machine Learning Projects
 
-#### Predicting Churn with Machine Learning Model: Logistic Regression
+#### 🎯 Predicting Churn with Machine Learning Model: Logistic Regression
 #### [Learn more about the project](/Predicting-Churn-with-Machine-Learning-Model-Logistic-Regression.md) <br> 
 **Tools:** Google Colab, Python, scikit-learn, pandas, seaborn <br>
 **Summary:** Developed a machine learning pipeline to predict telecom customer churn using Logistic Regression. Explored patterns in contract type, tenure, and payment method to identify customers most at risk of leaving. Achieved an ROC-AUC score of 0.84, providing actionable insights to support retention strategies.
