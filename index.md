@@ -21,10 +21,10 @@
 **Summary:** Analyzed user sign-up data to understand growth trends, acquisition channels, and geographic performance. Answered key business questions around user growth, retention signals, and marketing effectiveness using SQL queries.
  <!--  Assets to Add: Screenshot of dashboard, PDF export from Power BI -->
 
-#### SaaS Revenue & Churn Analysis (SQL)
+<!--  #### SaaS Revenue & Churn Analysis (SQL)
 #### [Learn more about the project](/sample_page) <br> 
 **Tools:** SQL (SQLite), Google Colab <br>
-**Summary:** Built a dashboard to track churn behavior when customers canceled existing licenses to use Black Friday discounts. Tracked KPIs like impressions, views, and regions to inform management.
+**Summary:** Built a dashboard to track churn behavior when customers canceled existing licenses to use Black Friday discounts. Tracked KPIs like impressions, views, and regions to inform management. -->
  <!--  Assets to Add: Screenshot of dashboard, PDF export from Power BI -->
 
 <!-- #### Customer Churn Analysis During Black Friday
