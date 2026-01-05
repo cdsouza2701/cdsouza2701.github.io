@@ -93,8 +93,8 @@ Delivered a complete, reproducible **machine learning pipeline** to predict cust
 The project demonstrates end-to-end implementation — from data cleaning to business insights — and serves as a baseline for future experiments with advanced models (e.g., Random Forest or XGBoost).
 
 
-<details>
+<!-- <details>
 <summary><b>📈 Behind the Model</b></summary>
 Your text here
-</details>
+</details> -->
 
