@@ -1,41 +1,108 @@
 ## 🚗 Car Rental Web Application
+📓 <a href="https://github.com/cdsouza2701/cdsouza2701/blob/dcbac02185120ad2f3467417b4d66e975318a050/Webscraper.ipynb" target="_blank" rel="noopener noreferrer">View Project Code</a>
 
-**Context**  
-This project was developed as part of a university coursework to practice front-end web development and basic client-side logic.
+**Project description:** This project focuses on designing and implementing a front-end car rental website using HTML, CSS, and JavaScript. The goal was to build a multi-page web application that allows users to browse available cars, select rental details, and view dynamically calculated pricing using client-side logic.
 
-**Problem**  
-Design a simple car rental website that allows users to:
-- Browse available cars
-- Select rental duration
-- View dynamically calculated rental prices
-- Navigate through multiple pages
+The project serves as an introduction to front-end web development concepts, including page navigation, DOM manipulation, and handling user input via URL parameters.
 
-**Solution**  
-I built a multi-page website using vanilla HTML, CSS, and JavaScript. Pricing logic is handled dynamically using URL parameters and JavaScript DOM manipulation.
+### 1. The objective of this project was to:
 
-**Key Features**
-- Multi-page navigation (Home, Cars, About, Return, Contact)
-- Dynamic price calculation based on rental duration
-- JavaScript handling of URL parameters
-- Responsive layout and consistent UI styling
+- Build a structured, multi-page website
 
-**Technical Highlights**
-- Client-side logic using `URLSearchParams`
-- DOM updates with JavaScript
-- Modular file structure (HTML / CSS / JS separation)
+- Enable users to select rental duration and car details
 
-**What I’d Improve Today**
-- Replace URL parameters with a backend or state management
-- Add form validation
-- Improve accessibility
-- Convert to React or Next.js
+- Dynamically calculate rental prices on the client side
 
-**Tools & Technologies**
+- Display user-specific information consistently across pages
+
+### 2. Application Structure & Data Flow
+
+**Application Type:** Front-end web application
+
+**Pages Included:**
+
+- Home
+
+- Cars listing
+
+- About
+
+- Return
+
+- Contact
+
+**Data Handling:**
+
+- User inputs (name, rental days, car ID, price per day) are passed between pages using URL query parameters
+
+- JavaScript extracts these parameters and dynamically updates the page content
+
+### 3. Methodology
+
+**Page Structure:**
+Built multiple HTML pages with shared navigation and consistent layout styling.
+
+**Client-Side Logic:**
+Used JavaScript to:
+
+- Read URL parameters using URLSearchParams
+
+- Perform price calculations based on rental duration
+
+- Inject dynamic values into the DOM
+
+**Styling:**
+Applied custom CSS to maintain a unified visual design across all pages.
+
+**Navigation Flow:**
+Ensured users can move seamlessly between pages while preserving relevant rental information.
+
+### 4. Tools & Technologies
+
 - HTML5
+
 - CSS3
+
 - JavaScript (ES6)
 
-**Links**
-- 🔗 GitHub Repository: [link]
-- 🌐 Live Demo (GitHub Pages): [optional]
+- DOM Manipulation
+
+- URL Parameters (URLSearchParams)
+
+### 5. Key Learnings
+
+- How client-side JavaScript can manage dynamic content without a backend
+
+- How to pass and retrieve data between pages using URL parameters
+
+- How to manipulate the DOM to display calculated values
+
+- How to structure a multi-page web application
+
+- Importance of separating structure (HTML), styling (CSS), and logic (JavaScript)
+
+### 6. Limitations
+
+- No backend or database integration
+
+- Data is not persisted beyond the browser session
+
+- No form validation or error handling for invalid user input
+
+- Pricing logic is client-side only and not secure for production use
+
+### 7. Future Improvements
+
+- Introduce backend logic and database storage
+
+- Add form validation and error handling
+
+- Improve accessibility and responsive design
+
+- Refactor into a modern framework such as React
+
+- Implement secure state management instead of URL parameters
+
+### 7. Academic Context
+This project was developed as part of a university coursework to practice foundational web development concepts. It represents an early-stage project focused on understanding how front-end applications function before introducing backend technologies or frameworks.
 
