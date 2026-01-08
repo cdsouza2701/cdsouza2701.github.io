@@ -67,7 +67,15 @@ The project demonstrates core web scraping concepts, including:
 
 This project served as a foundation for understanding how raw web data can be collected and later transformed for analysis or storage.
 
+---
 
+<!-- ### 📈 Website Building Projects
+
+#### 📊 Designing Website for  (SQL)
+#### [Learn more about the project](/sql_user_analysis.md) <br> 
+**Tools:** SQL (SQLite), Google Colab, Data Analysis <br>
+**Summary:** Analyzed user sign-up data to understand growth trends, acquisition channels, and geographic performance. Answered key business questions around user growth, retention signals, and marketing effectiveness using SQL queries. -->
+ <!--  Assets to Add: Screenshot of dashboard, PDF export from Power BI -->
 
 
 
