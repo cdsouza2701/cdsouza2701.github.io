@@ -69,12 +69,26 @@ This project served as a foundation for understanding how raw web data can be co
 
 ---
 
-<!-- ### 📈 Website Building Projects
+### 📈 Website Building Projects
 
 #### 📊 Designing Website for  (SQL)
-#### [Learn more about the project](/sql_user_analysis.md) <br> 
-**Tools:** SQL (SQLite), Google Colab, Data Analysis <br>
-**Summary:** Analyzed user sign-up data to understand growth trends, acquisition channels, and geographic performance. Answered key business questions around user growth, retention signals, and marketing effectiveness using SQL queries. -->
+#### [Learn more about the project](/car_rental_web_app.md) <br> 
+**Tools:** HTML, CSS, JavaScript, DOM Manipulation <br>
+**Summary:** Built a multi-page front-end car rental web application using vanilla HTML, CSS, and JavaScript. The application allows users to browse available cars, enter rental details, and view dynamically calculated rental prices using client-side logic and URL parameters.
+
+The project demonstrates core front-end web development concepts, including:
+
+- Structuring and styling multi-page websites using HTML and CSS
+
+- Handling user input through forms and query parameters
+
+- Passing data between pages using URL search parameters
+
+- Performing dynamic calculations with JavaScript
+
+- Updating the DOM to display user-specific information
+
+This project served as a foundational exercise in front-end development, focusing on client-side logic, page navigation, and dynamic content rendering prior to introducing backend systems or frameworks.
  <!--  Assets to Add: Screenshot of dashboard, PDF export from Power BI -->
 
 
