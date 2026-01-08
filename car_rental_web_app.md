@@ -1,5 +1,6 @@
 ## 🚗 Car Rental Web Application
-📓 <a href="https://github.com/cdsouza2701/cdsouza2701/blob/dcbac02185120ad2f3467417b4d66e975318a050/Webscraper.ipynb" target="_blank" rel="noopener noreferrer">View Project Code</a>
+📓 <a href="https://github.com/cdsouza2701/car-rental-web-app.git" target="_blank" rel="noopener noreferrer">View Project Code</a>
+ | 🌐 <a href="https://github.com/cdsouza2701/car-rental-web-app.git" target="_blank" rel="noopener noreferrer">Live Demo </a>
 
 **Project description:** This project focuses on designing and implementing a front-end car rental website using HTML, CSS, and JavaScript. The goal was to build a multi-page web application that allows users to browse available cars, select rental details, and view dynamically calculated pricing using client-side logic.
 
