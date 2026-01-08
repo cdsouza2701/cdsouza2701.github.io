@@ -13,15 +13,15 @@ The goal of the analysis was to predict a **binary target outcome** based on his
 
 #### Dataset Characteristics
 
-**Format:** CSV
+- **Format:** CSV
 
-**Data Type:** Structured tabular data
+- **Data Type:** Structured tabular data
 
-**Features:** Numerical and categorical variables
+- **Features:** Numerical and categorical variables
 
-**Target Variable:** Binary classification outcome
+- **Target Variable:** Binary classification outcome
 
-**Data Quality:** Contains missing values and inconsistencies
+- **Data Quality:** Contains missing values and inconsistencies
 
 #### ⚠️ Key Considerations
 
