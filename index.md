@@ -38,6 +38,12 @@
 **Summary:** Developed a machine learning pipeline to predict telecom customer churn using Logistic Regression. Explored patterns in contract type, tenure, and payment method to identify customers most at risk of leaving. Achieved an ROC-AUC score of 0.84, providing actionable insights to support retention strategies.
 <!-- Assets to Add: Screenshot of churn analysis notebook or ROC curve visualization -->
 
+
+#### 🔮 Predictive Analytics with Machine Learning
+#### [Learn more about the project](/Predicting-Churn-with-Machine-Learning-Model-Logistic-Regression.md) <br> 
+**Tools:** Python, pandas, NumPy, scikit-learn, Matplotlib, seaborn <br>
+**Summary:** Built an end-to-end predictive analytics pipeline to model and evaluate classification outcomes using structured data. Performed data cleaning, feature engineering, and exploratory analysis before training and comparing multiple machine learning models. Assessed performance using classification metrics and interpreted results to understand feature importance and model trade-offs.
+
 <!--<img src="images/dummy_thumbnail.jpg?raw=true"/>-->
 
 <!-----
