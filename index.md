@@ -71,7 +71,7 @@ This project served as a foundation for understanding how raw web data can be co
 
 ### 📈 Website Building Projects
 
-#### 📊 Designing Website for  (SQL)
+#### 🚗 Car Rental Web Application (Front-End Development)
 #### [Learn more about the project](/car_rental_web_app.md) <br> 
 **Tools:** HTML, CSS, JavaScript, DOM Manipulation <br>
 **Summary:** Built a multi-page front-end car rental web application using vanilla HTML, CSS, and JavaScript. The application allows users to browse available cars, enter rental details, and view dynamically calculated rental prices using client-side logic and URL parameters.
