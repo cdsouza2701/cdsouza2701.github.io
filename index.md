@@ -40,7 +40,7 @@
 
 
 #### 🔮 Predictive Analytics with Machine Learning
-#### [Learn more about the project](/Predicting-Churn-with-Machine-Learning-Model-Logistic-Regression.md) <br> 
+#### [Learn more about the project](/Predictive-Analytics-Final-Project.md) <br> 
 **Tools:** Python, pandas, NumPy, scikit-learn, Matplotlib, seaborn <br>
 **Summary:** Built an end-to-end predictive analytics pipeline to model and evaluate classification outcomes using structured data. Performed data cleaning, feature engineering, and exploratory analysis before training and comparing multiple machine learning models. Assessed performance using classification metrics and interpreted results to understand feature importance and model trade-offs.
 
