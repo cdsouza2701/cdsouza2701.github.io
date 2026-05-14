@@ -88,14 +88,28 @@ box-shadow:0 1px 3px rgba(0,0,0,0.05);
 ---
 
 <h2 style="
-color:#8b5cf6;
-margin-top:40px;
-margin-bottom:18px;
+margin-top:42px;
+margin-bottom:24px;
+">
+
+<div style="
+background:linear-gradient(to right, #ede9fe, #faf5ff);
+padding:14px 22px;
+border-radius:16px;
+width:100%;
+box-sizing:border-box;
+">
+
+<span style="
 font-size:28px;
-border-bottom:2px solid #ddd6fe;
-padding-bottom:8px;
+font-weight:700;
+color:#111827;
 ">
 🤖 Machine Learning Projects
+</span>
+
+</div>
+
 </h2>
 
 <div style="
@@ -155,14 +169,28 @@ box-shadow:0 1px 3px rgba(0,0,0,0.04);
 ---
 
 <h2 style="
-color:#0f766e;
-margin-top:40px;
-margin-bottom:18px;
+margin-top:42px;
+margin-bottom:24px;
+">
+
+<div style="
+background:linear-gradient(to right, #ccfbf1, #f0fdfa);
+padding:14px 22px;
+border-radius:16px;
+width:100%;
+box-sizing:border-box;
+">
+
+<span style="
 font-size:28px;
-border-bottom:2px solid #99f6e4;
-padding-bottom:8px;
+font-weight:700;
+color:#111827;
 ">
 ⚙️ Automation Projects
+</span>
+
+</div>
+
 </h2>
 
 <div style="
