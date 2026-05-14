@@ -206,7 +206,7 @@ font-size:28px;
 border-bottom:2px solid #fde68a;
 padding-bottom:8px;
 ">
-📈 Website Building Projects
+🌐 Website Building Projects
 </h2>
 
 <div style="
