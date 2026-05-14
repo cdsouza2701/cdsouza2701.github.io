@@ -3,6 +3,47 @@
 # Projects Portfolio
 
 ---
+<h2>📊 Data Analysis Projects</h2>
+
+<div style="
+background:#f8fafc;
+padding:22px;
+margin:28px 0;
+border-radius:14px;
+border-left:5px solid #64748b;
+box-shadow:0 1px 3px rgba(0,0,0,0.05);
+">
+
+<h4>🛠️ Point-in-Time Revenue Analytics (SCD Type 2 Modeling) SQL vs Python vs Excel</h4>
+
+<p><b>Tools:</b> SQL (SQLite), Google Colab, Data Analysis, Excel</p>
+
+<p><b>Summary:</b> Built 3 analytical workflows in SQL, Python and Excel to accurately calculate historical revenue based on the valid product price at the time of each transaction.</p>
+
+</div>
+
+<div style="
+background:#f8fafc;
+padding:22px;
+margin:28px 0;
+border-radius:14px;
+border-left:5px solid #64748b;
+box-shadow:0 1px 3px rgba(0,0,0,0.05);
+">
+
+<h4>📈 User Growth & Acquisition Analysis (SQL)</h4>
+
+<p>
+<a href="/sql_user_analysis.md"><b>Learn more about the project</b></a>
+</p>
+
+<p><b>Tools:</b> SQL (SQLite), Google Colab, Data Analysis</p>
+
+<p><b>Summary:</b> Analyzed user sign-up data to understand growth trends, acquisition channels, and geographic performance.</p>
+
+</div>
+
+---
 
 <div style="background:#f8fafc; padding:20px; margin:25px 0; border-radius:12px; border-left:6px solid #64748b;">
 
