@@ -67,8 +67,6 @@ box-shadow:0 1px 3px rgba(0,0,0,0.05);
 
 </div>
 
----
-
 <!-- #### 📊 User Growth & Acquisition Analysis (SQL)
 #### [Learn more about the project](/sql_user_analysis.md) <br> 
 **Tools:** SQL (SQLite), Google Colab, Data Analysis <br>
