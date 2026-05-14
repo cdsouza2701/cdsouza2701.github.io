@@ -43,10 +43,10 @@ box-shadow:0 1px 3px rgba(0,0,0,0.05);
 
 </div>
 
-#### 📊 User Growth & Acquisition Analysis (SQL)
+<!-- #### 📊 User Growth & Acquisition Analysis (SQL)
 #### [Learn more about the project](/sql_user_analysis.md) <br> 
 **Tools:** SQL (SQLite), Google Colab, Data Analysis <br>
-**Summary:** Analyzed user sign-up data to understand growth trends, acquisition channels, and geographic performance. Answered key business questions around user growth, retention signals, and marketing effectiveness using SQL queries.
+**Summary:** Analyzed user sign-up data to understand growth trends, acquisition channels, and geographic performance. Answered key business questions around user growth, retention signals, and marketing effectiveness using SQL queries.-->
  <!--  Assets to Add: Screenshot of dashboard, PDF export from Power BI -->
 
 <!--  #### SaaS Revenue & Churn Analysis (SQL)
