@@ -6,6 +6,12 @@
 
 ### 📈 Data Analysis Projects
 
+#### ⚔️ Point-in-Time Revenue Analytics (SCD Type 2 Modeling) SQL vs Python vs Excel
+<!-- #### [Learn more about the project](/sql_user_analysis.md) <br> -->
+**Tools:** SQL (SQLite), Google Colab, Data Analysis, Excel <br>
+**Summary:** Built 3 analytical workflows in SQL, Python and Excel to accurately calculate historical revenue based on the valid product price at the time of each transaction.
+ <!--  Assets to Add: Screenshot of dashboard, PDF export from Power BI -->
+
 #### 📊 User Growth & Acquisition Analysis (SQL)
 #### [Learn more about the project](/sql_user_analysis.md) <br> 
 **Tools:** SQL (SQLite), Google Colab, Data Analysis <br>
