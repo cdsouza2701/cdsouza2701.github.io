@@ -174,25 +174,6 @@ This project served as a foundation for understanding how raw web data can be co
 
 </div>
 
-### ⚙️ Automation Projects
-
-#### 🕷️ Web Scraping with Python & Beautiful Soup
-#### [Learn more about the project](/basic-webscraping-project.md) <br> 
-**Tools:** Python, Requests, Beautiful Soup, HTML Parsing <br>
-**Summary:** Built a Python script to scrape structured data from a live website using the Requests and Beautiful Soup libraries. The script sends HTTP requests, parses HTML content, and extracts specific elements (quotes and authors) based on tag structure and CSS classes.
-
-The project demonstrates core web scraping concepts, including:
-
-- Making HTTP requests to retrieve web page content
-
-- Parsing and navigating HTML using Beautiful Soup
-
-- Extracting multiple related data points and iterating through them
-
-- Cleaning and formatting scraped text output
-
-This project served as a foundation for understanding how raw web data can be collected and later transformed for analysis or storage.
-
 ---
 
 <h2>📈 Website Building Projects</h2>
@@ -244,27 +225,7 @@ This project served as a foundational exercise in front-end development, focusin
 
 </div>
 
-### 📈 Website Building Projects
 
-#### 🚗 Car Rental Web Application (Front-End Development)
-#### [Learn more about the project](/car_rental_web_app.md) <br> 
-**Tools:** HTML, CSS, JavaScript, DOM Manipulation <br>
-**Summary:** Built a multi-page front-end car rental web application using vanilla HTML, CSS, and JavaScript. The application allows users to browse available cars, enter rental details, and view dynamically calculated rental prices using client-side logic and URL parameters.
-
-The project demonstrates core front-end web development concepts, including:
-
-- Structuring and styling multi-page websites using HTML and CSS
-
-- Handling user input through forms and query parameters
-
-- Passing data between pages using URL search parameters
-
-- Performing dynamic calculations with JavaScript
-
-- Updating the DOM to display user-specific information
-
-This project served as a foundational exercise in front-end development, focusing on client-side logic, page navigation, and dynamic content rendering prior to introducing backend systems or frameworks.
- <!--  Assets to Add: Screenshot of dashboard, PDF export from Power BI -->
 
 
 
