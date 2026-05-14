@@ -127,6 +127,53 @@ box-shadow:0 1px 3px rgba(0,0,0,0.04);
 
 ---
 
+<h2>⚙️ Automation Projects</h2>
+
+<div style="
+background:#f0fdfa;
+padding:22px;
+margin:28px 0;
+border-radius:14px;
+border-left:5px solid #0f766e;
+box-shadow:0 1px 3px rgba(0,0,0,0.04);
+">
+
+<h4>🕷️ Web Scraping with Python & Beautiful Soup</h4>
+
+<p>
+<a href="/basic-webscraping-project.md">
+<b>Learn more about the project</b>
+</a>
+</p>
+
+<p>
+<b>Tools:</b> Python, Requests, Beautiful Soup, HTML Parsing
+</p>
+
+<p>
+<b>Summary:</b> Built a Python script to scrape structured data from a live website using the Requests and Beautiful Soup libraries. The script sends HTTP requests, parses HTML content, and extracts specific elements (quotes and authors) based on tag structure and CSS classes.
+</p>
+
+<p>
+The project demonstrates core web scraping concepts, including:
+</p>
+
+<ul>
+<li>Making HTTP requests to retrieve web page content</li>
+
+<li>Parsing and navigating HTML using Beautiful Soup</li>
+
+<li>Extracting multiple related data points and iterating through them</li>
+
+<li>Cleaning and formatting scraped text output</li>
+</ul>
+
+<p>
+This project served as a foundation for understanding how raw web data can be collected and later transformed for analysis or storage.
+</p>
+
+</div>
+
 ### ⚙️ Automation Projects
 
 #### 🕷️ Web Scraping with Python & Beautiful Soup
