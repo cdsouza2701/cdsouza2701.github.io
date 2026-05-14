@@ -211,6 +211,89 @@ This project served as a foundation for understanding how raw web data can be co
 </div>
 
 ---
+<h2 style="
+margin-top:42px;
+margin-bottom:24px;
+">
+
+<div style="
+background:linear-gradient(to right, #dbeafe, #eff6ff);
+padding:14px 22px;
+border-radius:16px;
+width:100%;
+box-sizing:border-box;
+">
+
+<span style="
+font-size:28px;
+font-weight:700;
+color:#111827;
+">
+🌐 Web Development Projects
+</span>
+
+</div>
+
+</h2>
+
+<div style="
+background:#f8fbff;
+padding:22px;
+margin:28px 0;
+border-radius:14px;
+border-left:5px solid #60a5fa;
+box-shadow:0 1px 3px rgba(0,0,0,0.04);
+">
+
+<h4 style="
+margin-bottom:10px;
+color:#111827;
+font-size:22px;
+">
+🚗 Car Rental Web Application (Front-End Development)
+</h4>
+
+<p>
+<a href="/car_rental_web_app.md" style="
+color:#2563eb;
+text-decoration:none;
+font-weight:600;
+">
+Learn more about the project →
+</a>
+</p>
+
+<p>
+<b>Tools:</b> HTML, CSS, JavaScript, DOM Manipulation
+</p>
+
+<p>
+<b>Summary:</b> Built a multi-page front-end car rental web application using vanilla HTML, CSS, and JavaScript. The application allows users to browse available cars, enter rental details, and view dynamically calculated rental prices using client-side logic and URL parameters.
+</p>
+
+<p>
+The project demonstrates core front-end web development concepts, including:
+</p>
+
+<ul>
+<li>Structuring and styling multi-page websites using HTML and CSS</li>
+
+<li>Handling user input through forms and query parameters</li>
+
+<li>Passing data between pages using URL search parameters</li>
+
+<li>Performing dynamic calculations with JavaScript</li>
+
+<li>Updating the DOM to display user-specific information</li>
+</ul>
+
+<p>
+This project served as a foundational exercise in front-end development, focusing on client-side logic, page navigation, and dynamic content rendering prior to introducing backend systems or frameworks.
+</p>
+
+</div>
+
+---
 
 <h2 style="
 color:#d97706;
