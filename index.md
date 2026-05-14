@@ -71,14 +71,18 @@ box-shadow:0 1px 3px rgba(0,0,0,0.05);
 **Tools:** Power BI, SQL <br>
 **Summary:** Built a dashboard to track churn behavior when customers canceled existing licenses to use Black Friday discounts. Tracked KPIs like impressions, views, and regions to inform management. -->
 
- <!-- ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>-->
-
-
 ---
 
-<h2>🤖 Machine Learning Projects</h2>
+<h2 style="
+color:#8b5cf6;
+margin-top:40px;
+margin-bottom:18px;
+font-size:28px;
+border-bottom:2px solid #ddd6fe;
+padding-bottom:8px;
+">
+🤖 Machine Learning Projects
+</h2>
 
 <div style="
 background:#fcfbff;
@@ -136,7 +140,16 @@ box-shadow:0 1px 3px rgba(0,0,0,0.04);
 
 ---
 
-<h2>⚙️ Automation Projects</h2>
+<h2 style="
+color:#0f766e;
+margin-top:40px;
+margin-bottom:18px;
+font-size:28px;
+border-bottom:2px solid #99f6e4;
+padding-bottom:8px;
+">
+⚙️ Automation Projects
+</h2>
 
 <div style="
 background:#f0fdfa;
@@ -185,7 +198,16 @@ This project served as a foundation for understanding how raw web data can be co
 
 ---
 
-<h2>📈 Website Building Projects</h2>
+<h2 style="
+color:#d97706;
+margin-top:40px;
+margin-bottom:18px;
+font-size:28px;
+border-bottom:2px solid #fde68a;
+padding-bottom:8px;
+">
+📈 Website Building Projects
+</h2>
 
 <div style="
 background:#fffbeb;
