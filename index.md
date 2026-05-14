@@ -3,13 +3,14 @@
 # Projects Portfolio
 
 ---
+
 <h2 style="
 margin-top:42px;
 margin-bottom:24px;
 ">
 
 <div style="
-background:#e2e8f0;
+background:linear-gradient(to right, #e2e8f0, #f8fafc);
 padding:14px 22px;
 border-radius:16px;
 width:100%;
