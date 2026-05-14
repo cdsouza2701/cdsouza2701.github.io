@@ -58,7 +58,7 @@ box-shadow:0 1px 3px rgba(0,0,0,0.05);
 <h4>📈 User Growth & Acquisition Analysis (SQL)</h4>
 
 <p>
-<a href="/sql_user_analysis.md"><b>Learn more about the project</b></a>
+<a href="/sql_user_analysis"><b>Learn more about the project</b></a>
 </p>
 
 <p><b>Tools:</b> SQL (SQLite), Google Colab, Data Analysis</p>
@@ -123,7 +123,7 @@ box-shadow:0 1px 3px rgba(0,0,0,0.04);
 <h4>🎯 Predicting Churn with Machine Learning Model: Logistic Regression</h4>
 
 <p>
-<a href="/Predicting-Churn-with-Machine-Learning-Model-Logistic-Regression.md">
+<a href="/Predicting-Churn-with-Machine-Learning-Model-Logistic-Regression">
 <b>Learn more about the project</b>
 </a>
 </p>
@@ -150,7 +150,7 @@ box-shadow:0 1px 3px rgba(0,0,0,0.04);
 <h4>🔮 Predictive Analytics with Machine Learning</h4>
 
 <p>
-<a href="/Predictive-Analytics-Final-Project.md">
+<a href="/Predictive-Analytics-Final-Project">
 <b>Learn more about the project</b>
 </a>
 </p>
@@ -204,7 +204,7 @@ box-shadow:0 1px 3px rgba(0,0,0,0.04);
 <h4>🕷️ Web Scraping with Python & Beautiful Soup</h4>
 
 <p>
-<a href="/basic-webscraping-project.md">
+<a href="/basic-webscraping-project">
 <b>Learn more about the project</b>
 </a>
 </p>
