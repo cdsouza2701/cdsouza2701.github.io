@@ -15,6 +15,18 @@
 
 </div>
 
+<div style="background:#f7f7f7; padding:20px; margin:25px 0; border-radius:12px; border-left:6px solid #4f46e5;">
+
+<h3>📈 Data Analysis Projects</h3>
+
+<h4>🛠️ Point-in-Time Revenue Analytics (SCD Type 2 Modeling) SQL vs Python vs Excel</h4>
+
+<p><b>Tools:</b> SQL (SQLite), Google Colab, Data Analysis, Excel</p>
+
+<p><b>Summary:</b> Built 3 analytical workflows in SQL, Python and Excel to accurately calculate historical revenue based on the valid product price at the time of each transaction.</p>
+
+</div>
+
 
 #### 📊 User Growth & Acquisition Analysis (SQL)
 #### [Learn more about the project](/sql_user_analysis.md) <br> 
