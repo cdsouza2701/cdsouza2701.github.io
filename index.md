@@ -3,7 +3,16 @@
 # Projects Portfolio
 
 ---
-<h2>📊 Data Analysis Projects</h2>
+<h2 style="
+color:#64748b;
+margin-top:40px;
+margin-bottom:18px;
+font-size:28px;
+border-bottom:2px solid #cbd5e1;
+padding-bottom:8px;
+">
+📊 Data Analysis Projects
+</h2>
 
 <div style="
 background:#f8fafc;
