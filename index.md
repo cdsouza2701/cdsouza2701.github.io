@@ -4,14 +4,28 @@
 
 ---
 <h2 style="
-color:#64748b;
-margin-top:40px;
-margin-bottom:18px;
+margin-top:42px;
+margin-bottom:24px;
+">
+
+<div style="
+background:#e2e8f0;
+padding:14px 22px;
+border-radius:16px;
+width:100%;
+box-sizing:border-box;
+">
+
+<span style="
 font-size:28px;
-border-bottom:2px solid #cbd5e1;
-padding-bottom:8px;
+font-weight:700;
+color:#111827;
 ">
 📊 Data Analysis Projects
+</span>
+
+</div>
+
 </h2>
 
 <div style="
