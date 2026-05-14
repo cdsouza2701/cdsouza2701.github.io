@@ -29,6 +29,32 @@ background:#f8fafc;
 
 </div>
 
+<div style="
+background:#f8fafc;
+padding:22px;
+margin:28px 0;
+border-radius:14px;
+border-left:5px solid #64748b;
+box-shadow:0 1px 3px rgba(0,0,0,0.05);
+">
+
+<h3>📊 Data Analysis Projects</h3>
+
+<h4>📈 User Growth & Acquisition Analysis (SQL)</h4>
+
+<p>
+<a href="/sql_user_analysis.md"><b>Learn more about the project</b></a>
+</p>
+
+<p>
+<b>Tools:</b> SQL (SQLite), Google Colab, Data Analysis
+</p>
+
+<p>
+<b>Summary:</b> Analyzed user sign-up data to understand growth trends, acquisition channels, and geographic performance. Answered key business questions around user growth, retention signals, and marketing effectiveness using SQL queries.
+</p>
+
+</div>
 
 #### 📊 User Growth & Acquisition Analysis (SQL)
 #### [Learn more about the project](/sql_user_analysis.md) <br> 
