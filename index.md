@@ -3,7 +3,7 @@
 # Projects Portfolio
 
 ---
-<div style="background:#f7f7f7; padding:20px; margin:25px 0; border-radius:12px;">
+<!-- <div style="background:#f7f7f7; padding:20px; margin:25px 0; border-radius:12px;">
 
 ### 📈 Data Analysis Projects
 
@@ -12,10 +12,12 @@
 **Tools:** SQL (SQLite), Google Colab, Data Analysis, Excel <br>
 **Summary:** Built 3 analytical workflows in SQL, Python and Excel to accurately calculate historical revenue based on the valid product price at the time of each transaction.
  <!--  Assets to Add: Screenshot of dashboard, PDF export from Power BI -->
+ border-left:6px solid #64748b;
+background:#f8fafc;
 
-</div>
+</div> -->
 
-<div style="background:#f7f7f7; padding:20px; margin:25px 0; border-radius:12px; border-left:6px solid #4f46e5;">
+<div style="background:#f7f7f7; padding:20px; margin:25px 0; border-radius:12px; border-left:6px solid #64748b;">
 
 <h3>📈 Data Analysis Projects</h3>
 
