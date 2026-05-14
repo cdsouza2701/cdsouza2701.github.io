@@ -17,7 +17,7 @@ background:#f8fafc;
 
 </div> -->
 
-<div style="background:#f7f7f7; padding:20px; margin:25px 0; border-radius:12px; border-left:6px solid #64748b;">
+<div style="background:#f8fafc; padding:20px; margin:25px 0; border-radius:12px; border-left:6px solid #64748b;">
 
 <h3>📈 Data Analysis Projects</h3>
 
