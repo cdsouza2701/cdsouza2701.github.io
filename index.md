@@ -42,7 +42,7 @@ box-shadow:0 1px 3px rgba(0,0,0,0.05);
 
 <p><b>Tools:</b> SQL (SQLite), Google Colab, Data Analysis, Excel</p>
 
-<p><b>Summary:</b> Built three analytical workflows in SQL, Python, and Excel to accurately calculate historical revenue using point-in-time price lookups based on the valid product price at the time of each transaction.
+<p><b>Summary:</b> Built three analytical workflows in SQL, Python, and Excel to accurately calculate historical revenue using point-in-time price lookups based on the valid product price at the time of each transaction.</br>
 
 Implemented SCD Type 2 modeling logic to handle historical pricing changes and explored different tool-specific approaches for solving temporal data and historical revenue analysis problems.</p>
 
