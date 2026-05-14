@@ -281,7 +281,7 @@ font-size:22px;
 </h4>
 
 <p>
-<a href="/car_rental_web_app.md" style="
+<a href="/car_rental_web_app" style="
 color:#2563eb;
 text-decoration:none;
 font-weight:600;
