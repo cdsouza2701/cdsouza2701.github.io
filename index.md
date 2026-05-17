@@ -38,17 +38,18 @@ border-left:5px solid #64748b;
 box-shadow:0 1px 3px rgba(0,0,0,0.05);
 ">
 
-<h4>🛠️ Point-in-Time Revenue Analytics (SCD Type 2 Modeling) SQL vs Python vs Excel</h4>
+<h4>🛠️ Point-in-Time Revenue Analytics (SCD Type 2 Modeling)</h4>
 
 <p>
 <a href="/Point-in-Time_Revenue_Analytics_SQL_vs_Python_vs_Excel"><b>Learn more about the project</b></a>
 </p>
 
-<p><b>Tools:</b> SQL (SQLite), Google Colab, Data Analysis, Excel</p>
+<p><b>Tools:</b> Pandas, Google Colab, Data Analysis</p>
 
-<p><b>Summary:</b> Built three analytical workflows in SQL, Python, and Excel to accurately calculate historical revenue using point-in-time price lookups based on the valid product price at the time of each transaction.
+<p><b>Summary:</b> Built a temporal analytics workflow in Python to calculate historically accurate revenue using point-in-time price lookups based on the valid product price at the time of each transaction.
 <br><br>
-Implemented Slowly Changing Dimension Type 2 (SCD Type 2) modeling logic to handle historical pricing changes and explored different tool-specific approaches for solving temporal data and historical revenue analysis problems.</p>
+Implemented Slowly Changing Dimension Type 2 (SCD Type 2) modeling concepts and used pandas `merge_asof()` logic to handle historical pricing changes and preserve revenue accuracy across time-based transactional data.
+</p>
 
 </div>
 
