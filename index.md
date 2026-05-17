@@ -40,6 +40,10 @@ box-shadow:0 1px 3px rgba(0,0,0,0.05);
 
 <h4>🛠️ Point-in-Time Revenue Analytics (SCD Type 2 Modeling) SQL vs Python vs Excel</h4>
 
+<p>
+<a href="/sql_user_analysis"><b>Learn more about the project</b></a>
+</p>
+
 <p><b>Tools:</b> SQL (SQLite), Google Colab, Data Analysis, Excel</p>
 
 <p><b>Summary:</b> Built three analytical workflows in SQL, Python, and Excel to accurately calculate historical revenue using point-in-time price lookups based on the valid product price at the time of each transaction.
