@@ -1,4 +1,4 @@
-## 🛠️ Point-in-Time Revenue Analytics with Historical Pricing (SCD Type 2 Modeling) Test
+## 🛠️ Point-in-Time Revenue Analytics with Historical Pricing (SCD Type 2 Modeling)
 🐍 <a href="https://github.com/cdsouza2701/cdsouza2701/blob/main/PP_(1_3)_Historical_Revenue_Analysis_Using_Python.ipynb" target="_blank" rel="noopener noreferrer">View Python Workflow</a>
 
 ### 🧩 Project Overview:
