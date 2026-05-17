@@ -41,7 +41,7 @@ box-shadow:0 1px 3px rgba(0,0,0,0.05);
 <h4>🛠️ Point-in-Time Revenue Analytics (SCD Type 2 Modeling) SQL vs Python vs Excel</h4>
 
 <p>
-<a href="/sql_user_analysis"><b>Learn more about the project</b></a>
+<a href="/Point-in-Time_Revenue_Analytics_SQL_vs_Python_vs_Excel"><b>Learn more about the project</b></a>
 </p>
 
 <p><b>Tools:</b> SQL (SQLite), Google Colab, Data Analysis, Excel</p>
