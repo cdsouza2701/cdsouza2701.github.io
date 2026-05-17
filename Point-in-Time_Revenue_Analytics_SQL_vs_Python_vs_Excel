@@ -1,153 +1,289 @@
-## 🔮 Predictive Analytics with Machine Learning Models
-📓 <a href="https://github.com/cdsouza2701/cdsouza2701/blob/aaa85da5d8429a2c4e6766ab0440c619dbfb72d2/Predictive__Analytics_Final_Exam.ipynb" target="_blank" rel="noopener noreferrer">View Project Code</a>
+## 🛠️ Point-in-Time Revenue Analytics with Historical Pricing (SCD Type 2 Modeling)
+📓 <a href="PP_(1_3)_Historical_Revenue_Analysis_Using_Python.ipynb" target="_blank" rel="noopener noreferrer">View Project Code</a>
 
-### 🧩 Project Overview: 
-This project focuses on building an end-to-end predictive analytics workflow using machine learning techniques on structured data. The objective was to understand how different features influence an outcome and to evaluate how various classification models perform when predicting unseen data.
+### 🧩 Project Overview:
+This project focuses on calculating historically accurate revenue for a business with changing product prices over time. The objective was to ensure that each transaction used the correct product price that was valid at the exact time of purchase, rather than incorrectly applying current pricing to historical sales data.
 
-Rather than targeting a single business scenario, the project emphasizes **transferable machine learning skills**, including data preprocessing, feature engineering, model training, evaluation, and interpretation. The approach mirrors real-world analytics workflows where data quality issues and modeling trade-offs must be addressed before reliable predictions can be made.
+The project simulates a common real-world analytics challenge involving **temporal data**, **historical version tracking**, and **point-in-time analysis**. Using structured transactional and pricing datasets, the workflow explored how historical pricing logic can be implemented using Python and pandas.
+
+Rather than relying on simple static joins, the project required time-aware analytical logic capable of preserving historical accuracy while handling changing business conditions over time.
+
+---
 
 ### 📁 Dataset Description:
-The dataset used in this project was provided as part of a predictive analytics exercise and is designed to simulate a real-world classification problem. It consists of structured, tabular data with a mix of numerical and categorical variables, as well as intentionally included missing values to reflect common data quality challenges.
+The project used multiple structured datasets representing customer transactions, product information, and historical pricing records.
 
-The goal of the analysis was to predict a **binary target outcome** based on historical observations.
+The datasets were designed to simulate a real-world pricing environment where product prices evolve over time due to operational or business changes.
+
+#### Tables Used
+
+### Transactions Table
+Contains transactional sales records.
 
 #### Dataset Characteristics
 
 - **Format:** CSV
+- **Data Type:** Structured transactional data
+- **Grain:** One row represents one order line item
+- **Key Variables:** Order date, product ID, quantity sold
 
-- **Data Type:** Structured tabular data
+### Price History Table
+Contains historical product pricing records.
 
-- **Features:** Numerical and categorical variables
+#### Dataset Characteristics
 
-- **Target Variable:** Binary classification outcome
+- **Format:** CSV
+- **Data Type:** Historical versioned data
+- **Grain:** One row represents one historical price version for a product
+- **Key Variables:** Product ID, effective date, historical price
 
-- **Data Quality:** Contains missing values and inconsistencies
+### Products Table
+Contains product reference information and current pricing.
 
 #### ⚠️ Key Considerations
 
-Several aspects of the dataset influenced the analytical approach:
+Several characteristics of the datasets influenced the analytical approach:
 
-- Missing values required explicit handling during preprocessing
+- Product prices changed over time
+- Historical prices needed to remain preserved
+- Transaction dates did not exactly match pricing effective dates
+- Revenue calculations depended on valid historical pricing logic
+- Incorrect joins could distort financial reporting
 
-- Categorical variables needed to be encoded before modeling
+These conditions made the project well-suited for practicing **temporal analytics workflows** and understanding how historical business data should be modeled and analyzed.
 
-- Feature distributions varied significantly, making scaling important
-
-- Not all variables contributed equally to predictive performance
-
-These characteristics made the dataset well-suited for practicing **realistic predictive analytics workflows**, from data cleaning through model evaluation.
+---
 
 ### 🎯 Objectives:
 
-- Explore and understand the structure and quality of the dataset
+- Calculate historically accurate revenue
+- Match each transaction with the correct historical product price
+- Implement point-in-time lookup logic
+- Explore temporal joins using Python
+- Validate uniqueness and historical version integrity
+- Preserve historical revenue accuracy despite pricing changes
 
-- Prepare raw data for machine learning models
-
-- Train and evaluate classification models
-
-- Compare model performance using appropriate metrics
-
-- Interpret results to understand model behavior and limitations
+---
 
 ### 🛠 Tools & Technologies:
 
 - Python
+- pandas
+- NumPy
+- Jupyter Notebook / Google Colab
+- CSV data sources
 
-- pandas & NumPy for data manipulation
+---
 
-- scikit-learn for machine learning models and evaluation
+### 🔍 Data Exploration & Validation
 
-- Matplotlib & seaborn for data visualization
+The project began with exploratory analysis to better understand the structure, quality, and grain of each dataset.
 
-- Google Colab / Jupyter Notebook for development
+Initial exploration steps included:
 
-### 🔍 Data Preparation & Exploration
-The project began with exploratory data analysis (EDA) to assess:
+- Inspecting sample records using `head()`
+- Reviewing dataset size and structure using `shape`
+- Checking column data types using `dtypes`
+- Identifying missing values using `isnull()`
+- Detecting duplicate records using `duplicated()`
+- Evaluating uniqueness and cardinality using `nunique()`
 
-- Feature distributions and data types
+Key validation checks included:
 
-- Missing or inconsistent values
+- Confirming transaction records were unique
+- Ensuring no duplicate historical price versions existed
+- Verifying date columns were converted into datetime format
+- Sorting datasets chronologically before temporal joins
 
-- Relationships between input variables and the target variable
+These validation steps helped ensure the datasets were reliable and analytically consistent before implementing the revenue logic.
 
-Key preprocessing steps included:
+---
 
-- Handling missing values using appropriate strategies
+### ⚙️ Data Preparation
+The project required several preprocessing steps before historical pricing logic could be applied.
 
-- Encoding categorical variables into numerical formats
+Key preparation tasks included:
 
-- Scaling and transforming features where required
+- Parsing date columns into datetime format
+- Sorting datasets chronologically
+- Verifying grain consistency across tables
+- Validating composite key uniqueness within historical pricing data
 
-- Selecting relevant variables for modeling
+Example preprocessing workflow:
 
-These steps ensured the data was clean, consistent, and suitable for training machine learning models.
+```python
+transactions = (
+    pd.read_csv("transactions.csv", parse_dates=["order_date"])
+    .sort_values("order_date")
+)
 
-### 🧪 Feature Engineering
-Feature engineering focused on improving both model performance and interpretability by:
+price_history = (
+    pd.read_csv("price_history.csv", parse_dates=["effective_date"])
+    .sort_values("effective_date")
+)
+```
 
-- Selecting features with predictive relevance
+Chronological sorting was especially important because temporal joins require ordered date values to correctly identify historical matches.
 
-- Transforming raw variables into model-friendly representations
+---
 
-- Reducing noise and redundancy within the dataset
+### 🔗 Point-in-Time Revenue Logic
 
-This process helped stabilize model performance and reduced the risk of overfitting.
+The core analytical challenge involved determining which product price was valid at the exact moment each transaction occurred.
 
-### ⚙️ Model Development
-Multiple classification models were developed using scikit-learn to predict the target outcome. Each model was:
+A traditional merge could not be used because:
 
-- Trained on historical data
+```text
+order_date ≠ effective_date
+```
 
-- Validated using a train/test split
+Instead, the project implemented a **point-in-time lookup** using:
 
-- Evaluated using the same performance metrics
+```python
+pd.merge_asof()
+```
 
-Training multiple models made it possible to compare how different algorithms handle the same data and to identify trade-offs between performance and interpretability.
+This approach performs a time-aware merge capable of identifying the closest valid historical record based on chronological logic.
 
-### 📐 Model Evaluation
-Model performance was evaluated using classification metrics such as:
+The workflow matched:
 
-- Accuracy
+- transactions by `pizza_id`
+- historical prices where:
 
-- Precision
+```text
+effective_date <= order_date
+```
 
-- Recall
+This ensured that each transaction received the latest valid historical price that existed at the time of purchase.
 
-- Confusion matrices
+---
 
-Rather than relying on a single metric, the evaluation focused on understanding **trade-offs**, including:
+### 🧠 Understanding SCD Type 2 Modeling
 
-- Sensitivity versus specificity
+The project reflects concepts commonly associated with:
 
-- Model complexity versus interpretability
+> Slowly Changing Dimension Type 2 (SCD Type 2)
 
-- Performance consistency across classes
+Instead of overwriting old prices when changes occur, historical pricing versions were preserved as separate records with their own effective dates.
 
-This approach supports more informed decisions when selecting models for real-world use cases.
+Example:
+
+| pizza_id | price | effective_date |
+|---|---|---|
+| 4 | 16.50 | 2026-01-01 |
+| 4 | 18.50 | 2026-02-01 |
+
+This structure preserves historical truth and allows revenue calculations to remain historically accurate.
+
+---
+
+### ⚙️ Core Python Workflow
+
+The historical pricing logic was implemented using pandas:
+
+```python
+revenue = pd.merge_asof(
+    transactions,
+    price_history,
+    by='pizza_id',
+    left_on='order_date',
+    right_on='effective_date',
+    direction='backward'
+).assign(
+    line_total=lambda x: x.price * x.quantity
+).line_total.sum()
+```
+
+The workflow:
+
+1. Matched transactions and pricing records by product ID
+2. Located the most recent valid historical price
+3. Calculated transaction-level revenue
+4. Aggregated all line totals into total revenue
+
+---
+
+### 🔄 Temporal Join Logic
+
+The most important component of the project was:
+
+```python
+direction="backward"
+```
+
+This instructed pandas to:
+
+> Search backward through time and retrieve the latest valid historical record.
+
+Equivalent business logic:
+
+```text
+effective_date <= order_date
+```
+
+This prevented future prices from incorrectly applying to historical transactions and ensured revenue integrity across the dataset.
+
+---
+
+### 📐 Revenue Calculation
+
+After historical prices were assigned, revenue was calculated using:
+
+```text
+price × quantity
+```
+
+The workflow generated transaction-level line totals before aggregating them into total historical revenue.
+
+Final calculated revenue:
+
+```text
+161,144.35
+```
+
+This output represented historically accurate revenue based on valid pricing at the time of each transaction.
+
+---
+
+### ⚠️ Challenges Encountered
+
+Several analytical challenges emerged throughout the project:
+
+- Historical pricing required temporal rather than exact-match joins
+- Transaction dates and price effective dates rarely aligned exactly
+- Incorrect grain handling could duplicate revenue calculations
+- Chronological sorting was required before temporal merging
+- Revenue accuracy depended on preserving historical pricing versions
+
+Addressing these issues required careful validation of uniqueness, cardinality, and historical business logic.
+
+---
 
 ### 💡 Key Insights
 
-- Data quality and preprocessing choices had a significant impact on model performance
+- Historical pricing problems require time-aware analytical logic
+- Temporal joins are more complex than standard relational joins
+- Understanding dataset grain is critical before merging tables
+- SCD Type 2 structures preserve historical business accuracy
+- Point-in-time analysis is essential for reliable financial reporting
 
-- Some models achieved higher predictive accuracy, while others offered greater interpretability
+The project also demonstrated how business rules directly influence technical implementation decisions within analytics workflows.
 
-- Feature importance analysis highlighted which variables most strongly influenced predictions
-
-- Model evaluation metrics must be selected based on the prediction objective, not convenience
+---
 
 ### 📌 Skills & Business Impact
 
 #### What This Project Demonstrates
 
-- Ability to build end-to-end machine learning pipelines
-
-- Strong understanding of predictive analytics fundamentals
-
-- Experience with model comparison and evaluation
-
-- Practical handling of imperfect, real-world data
-
-- Clear and structured analytical thinking
+- Strong understanding of temporal analytics
+- Experience implementing point-in-time lookup logic
+- Practical use of pandas for historical joins
+- Understanding of SCD Type 2 modeling concepts
+- Data validation and revenue integrity analysis
+- Ability to work with historical versioned datasets
 
 #### Why This Project Matters
-Predictive analytics plays a key role in data-driven decision-making across industries, supporting use cases such as churn prediction, risk modeling, demand forecasting, and operational optimization. This project demonstrates the ability to design, evaluate, and interpret machine learning models in a structured and reproducible way — skills that translate directly to professional analytics and data science roles.
+
+Many real-world business systems rely on historical version tracking for pricing, subscriptions, payroll, finance, and customer lifecycle management.
+
+This project demonstrates the ability to build analytical workflows that preserve historical accuracy while handling changing business conditions over time — a critical skill in analytics, business intelligence, finance, and data engineering environments.
